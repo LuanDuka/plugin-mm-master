@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rectangle class="fundo">
+	<scrollBox align="client">
+    <flowLayout class="tile" align="top" height="500" margins="{left=10, right=10, top=10}" autoHeight="true" horzAlign="center" lineSpacing="2" name="fraPesquisaLayout">
+       <layout>
+           <label left="000" top="025" height="20" width="60" text="Category" autoSize="true" />
+			    <comboBox left="065" top="025" height="20" width="240" field="baseCATEGORY" horzTextAlign="center" items="{'Abnormal', 'Aerial', 'Amorph', 'Aquan', 'Arcana', 'Beast', 'Construct', 'Dragon', 'Fiend', 'Humanoid', 'Insect', 'Lizard', 'Plant', 'Undead'}" values="{'Abnormal', 'Aerial', 'Amorph', 'Aquan', 'Arcana', 'Beast', 'Construct', 'Dragon', 'Fiend', 'Humanoid', 'Insect', 'Lizard', 'Plant', 'Undead'}" />
+        </layout>  
+    </flowLayout>
+  </scrollBox>
+</rectangle>

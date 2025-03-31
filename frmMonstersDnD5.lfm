@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form  formType="sheetTemplate"  dataType="marcos_monsters_2025"  
+title="Ficha de Monstros D&amp;D do Marcão" name="frmMonstersDnD5" theme="dark" cacheMode="time" description="@@dnd.sheet.description">
+
+<import file="styles.xml"/>
+<import file="templates.xml"/>
+
+<tabControl align="client" name="pgcPrincipal">
+      <tab title="@@plugin-mm.tabControl.tab.front">
+    <import file="frente.xml" />
+  </tab>
+
+      <tab title="Pesquisar por Monstro">
+    <import file="searchMonsterDnD5.xml"/>
+  </tab>
+</tabControl>
+</form>
