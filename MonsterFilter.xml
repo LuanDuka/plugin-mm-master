@@ -72,6 +72,10 @@
 
         end;
 
+        self.monsterList:sort();
+        toolSheet.MonstersPage=1;
+
+        self.monsterListTab:setFocus();
       </event>
     </button>
   </layout>
