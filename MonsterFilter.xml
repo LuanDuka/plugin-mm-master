@@ -117,8 +117,10 @@
       <checkBox align="left" width="75" horzTextAlign="center" text="Name" field="enableName" margins="{right=25, bottom=5, top=5}" />
       <edit align="left" width="275" field="nameFilter"/>
     </layout>
-
-    <layout align="top" height="125">
+			<horzLine left="25" top="25" width="50" strokeColor="black"/>
+    <layout align="top" height="75">
+      <horzLine left="25" top="25" width="50" strokeColor="black"/>
+      <horzLine left="0" top="74" width="375" strokeColor="grey"/>
       <layout align="top" height="25">
         <checkBox align="left" width="75" horzTextAlign="center" text="SIZES" field="enableSizes" margins="{right=75}"/>
       </layout>
@@ -133,12 +135,14 @@
         <checkBox align="left" horzTextAlign="center" width="75" field="gargantuan" text="Gargantuan"/>
   		</layout>
 		</layout>
-
-
-    <layout align="top" height="75">
+    <layout align="top" height="150">
+      <horzLine left="25" top="25" width="50" strokeColor="black"/>
       <layout align="top" height="25">
         <checkBox align="left" width="75" horzTextAlign="center" text="TYPES" field="enableTypes" margins="{right=75}"/>
       </layout>
+
+            <layout align="top" height="10"></layout>
+
       <layout align="top" height="25">
 				<checkBox align="left" horzTextAlign="center" width="75" field="aberration" text="Aberration"/>
 				<checkBox align="left" horzTextAlign="center" width="75" field="beast" text="Beast"/>
