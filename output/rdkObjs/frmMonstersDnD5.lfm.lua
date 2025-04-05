@@ -7599,6 +7599,11 @@ local function constructNew_frmMonstersDnD5()
                       monster.hitPoints= "Pontos de Vida:" .. trans(toolSheet.filteredMonsters[i].size);
             
                     end;
+            
+                    self.monsterList:sort();
+                    toolSheet.MonstersPage=1;
+            
+                    self.monsterListTab:setFocus();
         end);
 
     function obj:_releaseEvents()

@@ -25,10 +25,31 @@
               end;
             end;
 
-          if toolSheet.enableTypes then
+          if toolSheet.enableType then
 						local isType = filterType(monster);
 						if not isType then 
 							--write(monster.name .. " falhou no filtro de isType");
+							goto nextmonster 
+						end;
+
+          if toolSheet.enableAlignment then
+						local isAlignment = filterAlignment(monster);
+						if not isAlignment then 
+							--write(monster.name .. " falhou no filtro de isAlignment");
+							goto nextmonster 
+						end;
+
+          if toolSheet.enableArmorClass then
+						local isArmorClass = filterArmorClass(monster);
+						if not isArmorClass then 
+							--write(monster.name .. " falhou no filtro de isArmorClass");
+							goto nextmonster 
+						end;
+
+          if toolSheet.enableHitPoints then
+						local isHitPoints = filterHitPoints(monster);
+						if not isHitPoints then 
+							--write(monster.name .. " falhou no filtro de isHitPoints");
 							goto nextmonster 
 						end;
 					end;
