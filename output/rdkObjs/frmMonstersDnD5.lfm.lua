@@ -7578,16 +7578,19 @@ local function constructNew_frmMonstersDnD5()
             		            NDB.deleteNode(toDelete[i]);
             		        end;
             
-            		        -- Feel new list with first 50 monsters
+            		        -- Fill new list with first 50 monsters
             		        local limit = math.min(index, 50);
             
             				for i=1, limit, 1 do
             					local monster = self.monsterList:append();
             
                       if toolSheet.filteredMonsters[i].description then 
-            						monster.description = toolSheet.filteredSpells[i].description;
+            						monster.description = toolSheet.filteredMonsters[i].description;
             					end;
             
+                      monster.name = toolSheet.filteredMonsters[i].name;
+            					local nome = tryLang(toolSheet.filteredMonsters[i].name);
+            					if nome ~= nil then monster.name = monster.name .. " - " .. nome end;
             
                     end;
         end);
