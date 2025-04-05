@@ -3497,47 +3497,12 @@ local function constructNew_frmMonstersDnD5()
     obj.checkBox2 = GUI.fromHandle(_obj_newObject("checkBox"));
     obj.checkBox2:setParent(obj.layout46);
     obj.checkBox2:setAlign("left");
-    obj.checkBox2:setHorzTextAlign("center");
     obj.checkBox2:setWidth(75);
-    obj.checkBox2:setField("aberration");
-    obj.checkBox2:setText("Aberration");
+    obj.checkBox2:setHorzTextAlign("center");
+    obj.checkBox2:setText("SIZES");
+    obj.checkBox2:setField("enableSizes");
+    obj.checkBox2:setMargins({right=75});
     obj.checkBox2:setName("checkBox2");
-
-    obj.checkBox3 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox3:setParent(obj.layout46);
-    obj.checkBox3:setAlign("left");
-    obj.checkBox3:setHorzTextAlign("center");
-    obj.checkBox3:setWidth(75);
-    obj.checkBox3:setField("beast");
-    obj.checkBox3:setText("Beast");
-    obj.checkBox3:setName("checkBox3");
-
-    obj.checkBox4 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox4:setParent(obj.layout46);
-    obj.checkBox4:setAlign("left");
-    obj.checkBox4:setHorzTextAlign("center");
-    obj.checkBox4:setWidth(75);
-    obj.checkBox4:setField("celestial");
-    obj.checkBox4:setText("Celestial");
-    obj.checkBox4:setName("checkBox4");
-
-    obj.checkBox5 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox5:setParent(obj.layout46);
-    obj.checkBox5:setAlign("left");
-    obj.checkBox5:setHorzTextAlign("center");
-    obj.checkBox5:setWidth(75);
-    obj.checkBox5:setField("construct");
-    obj.checkBox5:setText("Construct");
-    obj.checkBox5:setName("checkBox5");
-
-    obj.checkBox6 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox6:setParent(obj.layout46);
-    obj.checkBox6:setAlign("left");
-    obj.checkBox6:setHorzTextAlign("center");
-    obj.checkBox6:setWidth(75);
-    obj.checkBox6:setField("dragon");
-    obj.checkBox6:setText("Dragon");
-    obj.checkBox6:setName("checkBox6");
 
     obj.layout47 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout47:setParent(obj.layout45);
@@ -3545,50 +3510,50 @@ local function constructNew_frmMonstersDnD5()
     obj.layout47:setHeight(25);
     obj.layout47:setName("layout47");
 
+    obj.checkBox3 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox3:setParent(obj.layout47);
+    obj.checkBox3:setAlign("left");
+    obj.checkBox3:setHorzTextAlign("center");
+    obj.checkBox3:setWidth(75);
+    obj.checkBox3:setField("tiny");
+    obj.checkBox3:setText("Tiny");
+    obj.checkBox3:setName("checkBox3");
+
+    obj.checkBox4 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox4:setParent(obj.layout47);
+    obj.checkBox4:setAlign("left");
+    obj.checkBox4:setHorzTextAlign("center");
+    obj.checkBox4:setWidth(75);
+    obj.checkBox4:setField("small");
+    obj.checkBox4:setText("Small");
+    obj.checkBox4:setName("checkBox4");
+
+    obj.checkBox5 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox5:setParent(obj.layout47);
+    obj.checkBox5:setAlign("left");
+    obj.checkBox5:setHorzTextAlign("center");
+    obj.checkBox5:setWidth(75);
+    obj.checkBox5:setField("medium");
+    obj.checkBox5:setText("Medium");
+    obj.checkBox5:setName("checkBox5");
+
+    obj.checkBox6 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox6:setParent(obj.layout47);
+    obj.checkBox6:setAlign("left");
+    obj.checkBox6:setHorzTextAlign("center");
+    obj.checkBox6:setWidth(75);
+    obj.checkBox6:setField("large");
+    obj.checkBox6:setText("Large");
+    obj.checkBox6:setName("checkBox6");
+
     obj.checkBox7 = GUI.fromHandle(_obj_newObject("checkBox"));
     obj.checkBox7:setParent(obj.layout47);
     obj.checkBox7:setAlign("left");
     obj.checkBox7:setHorzTextAlign("center");
     obj.checkBox7:setWidth(75);
-    obj.checkBox7:setField("elemental");
-    obj.checkBox7:setText("Elemental");
+    obj.checkBox7:setField("huge");
+    obj.checkBox7:setText("Huge");
     obj.checkBox7:setName("checkBox7");
-
-    obj.checkBox8 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox8:setParent(obj.layout47);
-    obj.checkBox8:setAlign("left");
-    obj.checkBox8:setHorzTextAlign("center");
-    obj.checkBox8:setWidth(75);
-    obj.checkBox8:setField("fey");
-    obj.checkBox8:setText("Fey");
-    obj.checkBox8:setName("checkBox8");
-
-    obj.checkBox9 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox9:setParent(obj.layout47);
-    obj.checkBox9:setAlign("left");
-    obj.checkBox9:setHorzTextAlign("center");
-    obj.checkBox9:setWidth(75);
-    obj.checkBox9:setField("fiend");
-    obj.checkBox9:setText("Fiend");
-    obj.checkBox9:setName("checkBox9");
-
-    obj.checkBox10 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox10:setParent(obj.layout47);
-    obj.checkBox10:setAlign("left");
-    obj.checkBox10:setHorzTextAlign("center");
-    obj.checkBox10:setWidth(75);
-    obj.checkBox10:setField("giant");
-    obj.checkBox10:setText("Giant");
-    obj.checkBox10:setName("checkBox10");
-
-    obj.checkBox11 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox11:setParent(obj.layout47);
-    obj.checkBox11:setAlign("left");
-    obj.checkBox11:setHorzTextAlign("center");
-    obj.checkBox11:setWidth(75);
-    obj.checkBox11:setField("humanoid");
-    obj.checkBox11:setText("Humanoid");
-    obj.checkBox11:setName("checkBox11");
 
     obj.layout48 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout48:setParent(obj.layout45);
@@ -3596,123 +3561,252 @@ local function constructNew_frmMonstersDnD5()
     obj.layout48:setHeight(25);
     obj.layout48:setName("layout48");
 
-    obj.checkBox12 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox12:setParent(obj.layout48);
-    obj.checkBox12:setAlign("left");
-    obj.checkBox12:setHorzTextAlign("center");
-    obj.checkBox12:setWidth(75);
-    obj.checkBox12:setField("monstrosity");
-    obj.checkBox12:setText("Monstrosity");
-    obj.checkBox12:setName("checkBox12");
-
-    obj.checkBox13 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox13:setParent(obj.layout48);
-    obj.checkBox13:setAlign("left");
-    obj.checkBox13:setHorzTextAlign("center");
-    obj.checkBox13:setWidth(75);
-    obj.checkBox13:setField("ooze");
-    obj.checkBox13:setText("Ooze");
-    obj.checkBox13:setName("checkBox13");
-
-    obj.checkBox14 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox14:setParent(obj.layout48);
-    obj.checkBox14:setAlign("left");
-    obj.checkBox14:setHorzTextAlign("center");
-    obj.checkBox14:setWidth(75);
-    obj.checkBox14:setField("plant");
-    obj.checkBox14:setText("Plant");
-    obj.checkBox14:setName("checkBox14");
-
-    obj.checkBox15 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox15:setParent(obj.layout48);
-    obj.checkBox15:setAlign("left");
-    obj.checkBox15:setHorzTextAlign("center");
-    obj.checkBox15:setWidth(75);
-    obj.checkBox15:setField("undead");
-    obj.checkBox15:setText("Undead");
-    obj.checkBox15:setName("checkBox15");
-
-    obj.checkBox16 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox16:setParent(obj.layout48);
-    obj.checkBox16:setAlign("left");
-    obj.checkBox16:setHorzTextAlign("center");
-    obj.checkBox16:setWidth(75);
-    obj.checkBox16:setField("Swarm");
-    obj.checkBox16:setText("Swarm");
-    obj.checkBox16:setName("checkBox16");
+    obj.checkBox8 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox8:setParent(obj.layout48);
+    obj.checkBox8:setAlign("left");
+    obj.checkBox8:setHorzTextAlign("center");
+    obj.checkBox8:setWidth(75);
+    obj.checkBox8:setField("gargantuan");
+    obj.checkBox8:setText("Gargantuan");
+    obj.checkBox8:setName("checkBox8");
 
     obj.layout49 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout49:setParent(obj.layout45);
+    obj.layout49:setParent(obj.scrollBox2);
     obj.layout49:setAlign("top");
-    obj.layout49:setHeight(25);
+    obj.layout49:setHeight(75);
     obj.layout49:setName("layout49");
 
-    obj.checkBox17 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox17:setParent(obj.layout49);
-    obj.checkBox17:setAlign("left");
-    obj.checkBox17:setHorzTextAlign("center");
-    obj.checkBox17:setWidth(75);
-    obj.checkBox17:setField("shadow");
-    obj.checkBox17:setText("Shadow");
-    obj.checkBox17:setName("checkBox17");
-
-    obj.checkBox18 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox18:setParent(obj.layout49);
-    obj.checkBox18:setAlign("left");
-    obj.checkBox18:setHorzTextAlign("center");
-    obj.checkBox18:setWidth(75);
-    obj.checkBox18:setField("titan");
-    obj.checkBox18:setText("Titan");
-    obj.checkBox18:setName("checkBox18");
-
-    obj.checkBox19 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox19:setParent(obj.layout49);
-    obj.checkBox19:setAlign("left");
-    obj.checkBox19:setHorzTextAlign("center");
-    obj.checkBox19:setWidth(75);
-    obj.checkBox19:setField("lycanthrope");
-    obj.checkBox19:setText("Lycanthrope");
-    obj.checkBox19:setName("checkBox19");
-
-    obj.checkBox20 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox20:setParent(obj.layout49);
-    obj.checkBox20:setAlign("left");
-    obj.checkBox20:setHorzTextAlign("center");
-    obj.checkBox20:setWidth(75);
-    obj.checkBox20:setField("deathknight");
-    obj.checkBox20:setText("Death Knight");
-    obj.checkBox20:setName("checkBox20");
-
-    obj.checkBox21 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox21:setParent(obj.layout49);
-    obj.checkBox21:setAlign("left");
-    obj.checkBox21:setHorzTextAlign("center");
-    obj.checkBox21:setWidth(75);
-    obj.checkBox21:setField("eldrazi");
-    obj.checkBox21:setText("Eldrazi");
-    obj.checkBox21:setName("checkBox21");
-
     obj.layout50 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout50:setParent(obj.layout45);
+    obj.layout50:setParent(obj.layout49);
     obj.layout50:setAlign("top");
     obj.layout50:setHeight(25);
     obj.layout50:setName("layout50");
 
-    obj.button3 = GUI.fromHandle(_obj_newObject("button"));
-    obj.button3:setParent(obj.layout50);
-    obj.button3:setAlign("left");
-    obj.button3:setHorzTextAlign("center");
-    obj.button3:setWidth(187);
-    obj.button3:setText("Marque Todas");
-    obj.button3:setName("button3");
+    obj.checkBox9 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox9:setParent(obj.layout50);
+    obj.checkBox9:setAlign("left");
+    obj.checkBox9:setWidth(75);
+    obj.checkBox9:setHorzTextAlign("center");
+    obj.checkBox9:setText("TYPES");
+    obj.checkBox9:setField("enableTypes");
+    obj.checkBox9:setMargins({right=75});
+    obj.checkBox9:setName("checkBox9");
 
-    obj.button4 = GUI.fromHandle(_obj_newObject("button"));
-    obj.button4:setParent(obj.layout50);
-    obj.button4:setAlign("left");
-    obj.button4:setHorzTextAlign("center");
-    obj.button4:setWidth(187);
-    obj.button4:setText("Desmarque Todas");
-    obj.button4:setName("button4");
+    obj.layout51 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout51:setParent(obj.layout49);
+    obj.layout51:setAlign("top");
+    obj.layout51:setHeight(25);
+    obj.layout51:setName("layout51");
+
+    obj.checkBox10 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox10:setParent(obj.layout51);
+    obj.checkBox10:setAlign("left");
+    obj.checkBox10:setHorzTextAlign("center");
+    obj.checkBox10:setWidth(75);
+    obj.checkBox10:setField("aberration");
+    obj.checkBox10:setText("Aberration");
+    obj.checkBox10:setName("checkBox10");
+
+    obj.checkBox11 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox11:setParent(obj.layout51);
+    obj.checkBox11:setAlign("left");
+    obj.checkBox11:setHorzTextAlign("center");
+    obj.checkBox11:setWidth(75);
+    obj.checkBox11:setField("beast");
+    obj.checkBox11:setText("Beast");
+    obj.checkBox11:setName("checkBox11");
+
+    obj.checkBox12 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox12:setParent(obj.layout51);
+    obj.checkBox12:setAlign("left");
+    obj.checkBox12:setHorzTextAlign("center");
+    obj.checkBox12:setWidth(75);
+    obj.checkBox12:setField("celestial");
+    obj.checkBox12:setText("Celestial");
+    obj.checkBox12:setName("checkBox12");
+
+    obj.checkBox13 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox13:setParent(obj.layout51);
+    obj.checkBox13:setAlign("left");
+    obj.checkBox13:setHorzTextAlign("center");
+    obj.checkBox13:setWidth(75);
+    obj.checkBox13:setField("construct");
+    obj.checkBox13:setText("Construct");
+    obj.checkBox13:setName("checkBox13");
+
+    obj.checkBox14 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox14:setParent(obj.layout51);
+    obj.checkBox14:setAlign("left");
+    obj.checkBox14:setHorzTextAlign("center");
+    obj.checkBox14:setWidth(75);
+    obj.checkBox14:setField("dragon");
+    obj.checkBox14:setText("Dragon");
+    obj.checkBox14:setName("checkBox14");
+
+    obj.layout52 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout52:setParent(obj.layout49);
+    obj.layout52:setAlign("top");
+    obj.layout52:setHeight(25);
+    obj.layout52:setName("layout52");
+
+    obj.checkBox15 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox15:setParent(obj.layout52);
+    obj.checkBox15:setAlign("left");
+    obj.checkBox15:setHorzTextAlign("center");
+    obj.checkBox15:setWidth(75);
+    obj.checkBox15:setField("elemental");
+    obj.checkBox15:setText("Elemental");
+    obj.checkBox15:setName("checkBox15");
+
+    obj.checkBox16 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox16:setParent(obj.layout52);
+    obj.checkBox16:setAlign("left");
+    obj.checkBox16:setHorzTextAlign("center");
+    obj.checkBox16:setWidth(75);
+    obj.checkBox16:setField("fey");
+    obj.checkBox16:setText("Fey");
+    obj.checkBox16:setName("checkBox16");
+
+    obj.checkBox17 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox17:setParent(obj.layout52);
+    obj.checkBox17:setAlign("left");
+    obj.checkBox17:setHorzTextAlign("center");
+    obj.checkBox17:setWidth(75);
+    obj.checkBox17:setField("fiend");
+    obj.checkBox17:setText("Fiend");
+    obj.checkBox17:setName("checkBox17");
+
+    obj.checkBox18 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox18:setParent(obj.layout52);
+    obj.checkBox18:setAlign("left");
+    obj.checkBox18:setHorzTextAlign("center");
+    obj.checkBox18:setWidth(75);
+    obj.checkBox18:setField("giant");
+    obj.checkBox18:setText("Giant");
+    obj.checkBox18:setName("checkBox18");
+
+    obj.checkBox19 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox19:setParent(obj.layout52);
+    obj.checkBox19:setAlign("left");
+    obj.checkBox19:setHorzTextAlign("center");
+    obj.checkBox19:setWidth(75);
+    obj.checkBox19:setField("humanoid");
+    obj.checkBox19:setText("Humanoid");
+    obj.checkBox19:setName("checkBox19");
+
+    obj.layout53 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout53:setParent(obj.layout49);
+    obj.layout53:setAlign("top");
+    obj.layout53:setHeight(25);
+    obj.layout53:setName("layout53");
+
+    obj.checkBox20 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox20:setParent(obj.layout53);
+    obj.checkBox20:setAlign("left");
+    obj.checkBox20:setHorzTextAlign("center");
+    obj.checkBox20:setWidth(75);
+    obj.checkBox20:setField("monstrosity");
+    obj.checkBox20:setText("Monstrosity");
+    obj.checkBox20:setName("checkBox20");
+
+    obj.checkBox21 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox21:setParent(obj.layout53);
+    obj.checkBox21:setAlign("left");
+    obj.checkBox21:setHorzTextAlign("center");
+    obj.checkBox21:setWidth(75);
+    obj.checkBox21:setField("ooze");
+    obj.checkBox21:setText("Ooze");
+    obj.checkBox21:setName("checkBox21");
+
+    obj.checkBox22 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox22:setParent(obj.layout53);
+    obj.checkBox22:setAlign("left");
+    obj.checkBox22:setHorzTextAlign("center");
+    obj.checkBox22:setWidth(75);
+    obj.checkBox22:setField("plant");
+    obj.checkBox22:setText("Plant");
+    obj.checkBox22:setName("checkBox22");
+
+    obj.checkBox23 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox23:setParent(obj.layout53);
+    obj.checkBox23:setAlign("left");
+    obj.checkBox23:setHorzTextAlign("center");
+    obj.checkBox23:setWidth(75);
+    obj.checkBox23:setField("undead");
+    obj.checkBox23:setText("Undead");
+    obj.checkBox23:setName("checkBox23");
+
+    obj.checkBox24 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox24:setParent(obj.layout53);
+    obj.checkBox24:setAlign("left");
+    obj.checkBox24:setHorzTextAlign("center");
+    obj.checkBox24:setWidth(75);
+    obj.checkBox24:setField("Swarm");
+    obj.checkBox24:setText("Swarm");
+    obj.checkBox24:setName("checkBox24");
+
+    obj.layout54 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout54:setParent(obj.layout49);
+    obj.layout54:setAlign("top");
+    obj.layout54:setHeight(25);
+    obj.layout54:setName("layout54");
+
+    obj.checkBox25 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox25:setParent(obj.layout54);
+    obj.checkBox25:setAlign("left");
+    obj.checkBox25:setHorzTextAlign("center");
+    obj.checkBox25:setWidth(75);
+    obj.checkBox25:setField("shadow");
+    obj.checkBox25:setText("Shadow");
+    obj.checkBox25:setName("checkBox25");
+
+    obj.checkBox26 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox26:setParent(obj.layout54);
+    obj.checkBox26:setAlign("left");
+    obj.checkBox26:setHorzTextAlign("center");
+    obj.checkBox26:setWidth(75);
+    obj.checkBox26:setField("titan");
+    obj.checkBox26:setText("Titan");
+    obj.checkBox26:setName("checkBox26");
+
+    obj.checkBox27 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox27:setParent(obj.layout54);
+    obj.checkBox27:setAlign("left");
+    obj.checkBox27:setHorzTextAlign("center");
+    obj.checkBox27:setWidth(75);
+    obj.checkBox27:setField("lycanthrope");
+    obj.checkBox27:setText("Lycanthrope");
+    obj.checkBox27:setName("checkBox27");
+
+    obj.checkBox28 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox28:setParent(obj.layout54);
+    obj.checkBox28:setAlign("left");
+    obj.checkBox28:setHorzTextAlign("center");
+    obj.checkBox28:setWidth(75);
+    obj.checkBox28:setField("deathknight");
+    obj.checkBox28:setText("Death Knight");
+    obj.checkBox28:setName("checkBox28");
+
+    obj.checkBox29 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox29:setParent(obj.layout54);
+    obj.checkBox29:setAlign("left");
+    obj.checkBox29:setHorzTextAlign("center");
+    obj.checkBox29:setWidth(75);
+    obj.checkBox29:setField("eldrazi");
+    obj.checkBox29:setText("Eldrazi");
+    obj.checkBox29:setName("checkBox29");
+
+    obj.layout55 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout55:setParent(obj.scrollBox2);
+    obj.layout55:setAlign("top");
+    obj.layout55:setHeight(100);
+    obj.layout55:setName("layout55");
+
+    obj.layout56 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout56:setParent(obj.layout55);
+    obj.layout56:setAlign("top");
+    obj.layout56:setHeight(25);
+    obj.layout56:setName("layout56");
 
     obj._e_event0 = obj.dataLink1:addEventListener("onChange",
         function (field, oldValue, newValue)
@@ -7785,7 +7879,15 @@ local function constructNew_frmMonstersDnD5()
                           end;
                         end;
             
-                      if toolSheet.enableType then
+                      if toolSheet.enableSizes then
+            						local isSize = filterSize(monster);
+            						if not isSize then 
+            							--write(monster.name .. " falhou no filtro de isSize");
+            							goto nextmonster 
+            						  end;
+            						end;
+            
+                      if toolSheet.enableTypes then
             						local isType = filterType(monster);
             						if not isType then 
             							--write(monster.name .. " falhou no filtro de isType");
@@ -7862,62 +7964,7 @@ local function constructNew_frmMonstersDnD5()
                     self.monsterListTab:setFocus();
         end);
 
-    obj._e_event297 = obj.button3:addEventListener("onClick",
-        function (event)
-            if self.scope == nil or self.scope.node == nil then return end
-                        for _, type in pairs({"aberration", "beast", --[[...all others...]]}) do
-                				
-                        self.scope.node.aberration = true;
-            						self.scope.node.beast = true;
-                        self.scope.node.celestial = true;
-                        self.scope.node.construct = true;
-                        self.scope.node.dragon = true;
-                        self.scope.node.elemental = true;
-                        self.scope.node.fey = true;
-                        self.scope.node.fiend = true;
-                        self.scope.node.giant = true;
-                        self.scope.node.humanoid = true;
-                        self.scope.node.monstrosity = true;
-                        self.scope.node.ooze = true;
-                        self.scope.node.plant = true;
-                        self.scope.node.undead = true;
-                        self.scope.node.swarm = true;
-                        self.scope.node.shadow = true;
-                        self.scope.node.titan = true;
-                        self.scope.node.lycanthrope = true;
-                        self.scope.node.deathknight = true;
-                        self.scope.node.eldrazi = true;
-                        end;
-        end);
-
-    obj._e_event298 = obj.button4:addEventListener("onClick",
-        function (event)
-            if self.scope.node==nil then return end;
-                        self.scope.node.aberration = false;
-                        self.scope.node.beast = false;
-                        self.scope.node.celestial = false;
-                        self.scope.node.construct = false;
-                        self.scope.node.dragon = false;
-                        self.scope.node.elemental = false;
-                        self.scope.node.fey = false;
-                        self.scope.node.fiend = false;
-                        self.scope.node.giant = false;
-                        self.scope.node.humanoid = false;
-                        self.scope.node.monstrosity = false;
-                        self.scope.node.ooze = false;
-                        self.scope.node.plant = false;
-                        self.scope.node.undead = false;
-                        self.scope.node.swarm = false;
-                        self.scope.node.shadow = false;
-                        self.scope.node.titan = false;
-                        self.scope.node.lycanthrope = false;
-                        self.scope.node.deathknight = false;
-                        self.scope.node.eldrazi = false;
-        end);
-
     function obj:_releaseEvents()
-        __o_rrpgObjs.removeEventListenerById(self._e_event298);
-        __o_rrpgObjs.removeEventListenerById(self._e_event297);
         __o_rrpgObjs.removeEventListenerById(self._e_event296);
         __o_rrpgObjs.removeEventListenerById(self._e_event295);
         __o_rrpgObjs.removeEventListenerById(self._e_event294);
@@ -8258,6 +8305,7 @@ local function constructNew_frmMonstersDnD5()
         if self.flpSkillFlowPart23 ~= nil then self.flpSkillFlowPart23:destroy(); self.flpSkillFlowPart23 = nil; end;
         if self.frame2 ~= nil then self.frame2:destroy(); self.frame2 = nil; end;
         if self.horzLine3 ~= nil then self.horzLine3:destroy(); self.horzLine3 = nil; end;
+        if self.layout52 ~= nil then self.layout52:destroy(); self.layout52 = nil; end;
         if self.edit3 ~= nil then self.edit3:destroy(); self.edit3 = nil; end;
         if self.image17 ~= nil then self.image17:destroy(); self.image17 = nil; end;
         if self.flpSkillFlowPart14 ~= nil then self.flpSkillFlowPart14:destroy(); self.flpSkillFlowPart14 = nil; end;
@@ -8272,7 +8320,6 @@ local function constructNew_frmMonstersDnD5()
         if self.dataLink51 ~= nil then self.dataLink51:destroy(); self.dataLink51 = nil; end;
         if self.image1 ~= nil then self.image1:destroy(); self.image1 = nil; end;
         if self.flowLayout6 ~= nil then self.flowLayout6:destroy(); self.flowLayout6 = nil; end;
-        if self.button3 ~= nil then self.button3:destroy(); self.button3 = nil; end;
         if self.flowPart17 ~= nil then self.flowPart17:destroy(); self.flowPart17 = nil; end;
         if self.image22 ~= nil then self.image22:destroy(); self.image22 = nil; end;
         if self.layout15 ~= nil then self.layout15:destroy(); self.layout15 = nil; end;
@@ -8305,6 +8352,7 @@ local function constructNew_frmMonstersDnD5()
         if self.dataLink74 ~= nil then self.dataLink74:destroy(); self.dataLink74 = nil; end;
         if self.edit15 ~= nil then self.edit15:destroy(); self.edit15 = nil; end;
         if self.layout48 ~= nil then self.layout48:destroy(); self.layout48 = nil; end;
+        if self.checkBox24 ~= nil then self.checkBox24:destroy(); self.checkBox24 = nil; end;
         if self.dataLink24 ~= nil then self.dataLink24:destroy(); self.dataLink24 = nil; end;
         if self.dataLink79 ~= nil then self.dataLink79:destroy(); self.dataLink79 = nil; end;
         if self.checkBox21 ~= nil then self.checkBox21:destroy(); self.checkBox21 = nil; end;
@@ -8356,6 +8404,7 @@ local function constructNew_frmMonstersDnD5()
         if self.flowPart12 ~= nil then self.flowPart12:destroy(); self.flowPart12 = nil; end;
         if self.flpSkillFlowPart1button ~= nil then self.flpSkillFlowPart1button:destroy(); self.flpSkillFlowPart1button = nil; end;
         if self.frmMonsters ~= nil then self.frmMonsters:destroy(); self.frmMonsters = nil; end;
+        if self.layout55 ~= nil then self.layout55:destroy(); self.layout55 = nil; end;
         if self.layout16 ~= nil then self.layout16:destroy(); self.layout16 = nil; end;
         if self.linUpperGridCampo6 ~= nil then self.linUpperGridCampo6:destroy(); self.linUpperGridCampo6 = nil; end;
         if self.dataLink43 ~= nil then self.dataLink43:destroy(); self.dataLink43 = nil; end;
@@ -8371,7 +8420,6 @@ local function constructNew_frmMonstersDnD5()
         if self.dataLink58 ~= nil then self.dataLink58:destroy(); self.dataLink58 = nil; end;
         if self.layout5 ~= nil then self.layout5:destroy(); self.layout5 = nil; end;
         if self.image8 ~= nil then self.image8:destroy(); self.image8 = nil; end;
-        if self.button4 ~= nil then self.button4:destroy(); self.button4 = nil; end;
         if self.horzLine15 ~= nil then self.horzLine15:destroy(); self.horzLine15 = nil; end;
         if self.label2 ~= nil then self.label2:destroy(); self.label2 = nil; end;
         if self.edit18 ~= nil then self.edit18:destroy(); self.edit18 = nil; end;
@@ -8382,11 +8430,14 @@ local function constructNew_frmMonstersDnD5()
         if self.dataLink61 ~= nil then self.dataLink61:destroy(); self.dataLink61 = nil; end;
         if self.dataLink71 ~= nil then self.dataLink71:destroy(); self.dataLink71 = nil; end;
         if self.edit12 ~= nil then self.edit12:destroy(); self.edit12 = nil; end;
+        if self.checkBox29 ~= nil then self.checkBox29:destroy(); self.checkBox29 = nil; end;
         if self.dataLink64 ~= nil then self.dataLink64:destroy(); self.dataLink64 = nil; end;
         if self.dataLink27 ~= nil then self.dataLink27:destroy(); self.dataLink27 = nil; end;
         if self.edit17 ~= nil then self.edit17:destroy(); self.edit17 = nil; end;
+        if self.checkBox26 ~= nil then self.checkBox26:destroy(); self.checkBox26 = nil; end;
         if self.dataLink22 ~= nil then self.dataLink22:destroy(); self.dataLink22 = nil; end;
         if self.flpSkillFlowPart3button ~= nil then self.flpSkillFlowPart3button:destroy(); self.flpSkillFlowPart3button = nil; end;
+        if self.checkBox23 ~= nil then self.checkBox23:destroy(); self.checkBox23 = nil; end;
         if self.edtNome1 ~= nil then self.edtNome1:destroy(); self.edtNome1 = nil; end;
         if self.layout26 ~= nil then self.layout26:destroy(); self.layout26 = nil; end;
         if self.flpSkillFlowPart14button ~= nil then self.flpSkillFlowPart14button:destroy(); self.flpSkillFlowPart14button = nil; end;
@@ -8425,6 +8476,7 @@ local function constructNew_frmMonstersDnD5()
         if self.dataLink1 ~= nil then self.dataLink1:destroy(); self.dataLink1 = nil; end;
         if self.flpSkillFlowPart17 ~= nil then self.flpSkillFlowPart17:destroy(); self.flpSkillFlowPart17 = nil; end;
         if self.flowPart11 ~= nil then self.flowPart11:destroy(); self.flowPart11 = nil; end;
+        if self.layout56 ~= nil then self.layout56:destroy(); self.layout56 = nil; end;
         if self.edit7 ~= nil then self.edit7:destroy(); self.edit7 = nil; end;
         if self.dataLink50 ~= nil then self.dataLink50:destroy(); self.dataLink50 = nil; end;
         if self.flowLayout7 ~= nil then self.flowLayout7:destroy(); self.flowLayout7 = nil; end;
@@ -8499,6 +8551,7 @@ local function constructNew_frmMonstersDnD5()
         if self.flpSkillFlowPart10 ~= nil then self.flpSkillFlowPart10:destroy(); self.flpSkillFlowPart10 = nil; end;
         if self.image13 ~= nil then self.image13:destroy(); self.image13 = nil; end;
         if self.flpSkillFlowPart22 ~= nil then self.flpSkillFlowPart22:destroy(); self.flpSkillFlowPart22 = nil; end;
+        if self.layout53 ~= nil then self.layout53:destroy(); self.layout53 = nil; end;
         if self.edit2 ~= nil then self.edit2:destroy(); self.edit2 = nil; end;
         if self.image16 ~= nil then self.image16:destroy(); self.image16 = nil; end;
         if self.dataLink3 ~= nil then self.dataLink3:destroy(); self.dataLink3 = nil; end;
@@ -8507,6 +8560,7 @@ local function constructNew_frmMonstersDnD5()
         if self.checkBox18 ~= nil then self.checkBox18:destroy(); self.checkBox18 = nil; end;
         if self.flowPart13 ~= nil then self.flowPart13:destroy(); self.flowPart13 = nil; end;
         if self.fraFrenteLayout ~= nil then self.fraFrenteLayout:destroy(); self.fraFrenteLayout = nil; end;
+        if self.layout54 ~= nil then self.layout54:destroy(); self.layout54 = nil; end;
         if self.layout19 ~= nil then self.layout19:destroy(); self.layout19 = nil; end;
         if self.linUpperGridCampo5 ~= nil then self.linUpperGridCampo5:destroy(); self.linUpperGridCampo5 = nil; end;
         if self.dataLink40 ~= nil then self.dataLink40:destroy(); self.dataLink40 = nil; end;
@@ -8538,12 +8592,15 @@ local function constructNew_frmMonstersDnD5()
         if self.dataLink62 ~= nil then self.dataLink62:destroy(); self.dataLink62 = nil; end;
         if self.edit11 ~= nil then self.edit11:destroy(); self.edit11 = nil; end;
         if self.dataLink70 ~= nil then self.dataLink70:destroy(); self.dataLink70 = nil; end;
+        if self.checkBox28 ~= nil then self.checkBox28:destroy(); self.checkBox28 = nil; end;
         if self.dataLink65 ~= nil then self.dataLink65:destroy(); self.dataLink65 = nil; end;
         if self.dataLink28 ~= nil then self.dataLink28:destroy(); self.dataLink28 = nil; end;
         if self.flpSkillFlowPart5button ~= nil then self.flpSkillFlowPart5button:destroy(); self.flpSkillFlowPart5button = nil; end;
         if self.dataLink75 ~= nil then self.dataLink75:destroy(); self.dataLink75 = nil; end;
         if self.edit16 ~= nil then self.edit16:destroy(); self.edit16 = nil; end;
+        if self.checkBox25 ~= nil then self.checkBox25:destroy(); self.checkBox25 = nil; end;
         if self.dataLink23 ~= nil then self.dataLink23:destroy(); self.dataLink23 = nil; end;
+        if self.checkBox22 ~= nil then self.checkBox22:destroy(); self.checkBox22 = nil; end;
         if self.layout27 ~= nil then self.layout27:destroy(); self.layout27 = nil; end;
         if self.layout22 ~= nil then self.layout22:destroy(); self.layout22 = nil; end;
         if self.dataLink16 ~= nil then self.dataLink16:destroy(); self.dataLink16 = nil; end;
@@ -8586,6 +8643,7 @@ local function constructNew_frmMonstersDnD5()
         if self.flpSkillFlowPart16 ~= nil then self.flpSkillFlowPart16:destroy(); self.flpSkillFlowPart16 = nil; end;
         if self.flpSkillFlowPart24 ~= nil then self.flpSkillFlowPart24:destroy(); self.flpSkillFlowPart24 = nil; end;
         if self.flpSkillFlowPart24button ~= nil then self.flpSkillFlowPart24button:destroy(); self.flpSkillFlowPart24button = nil; end;
+        if self.layout51 ~= nil then self.layout51:destroy(); self.layout51 = nil; end;
         if self.edit4 ~= nil then self.edit4:destroy(); self.edit4 = nil; end;
         if self.image14 ~= nil then self.image14:destroy(); self.image14 = nil; end;
         if self.flowLayout4 ~= nil then self.flowLayout4:destroy(); self.flowLayout4 = nil; end;
@@ -8620,6 +8678,7 @@ local function constructNew_frmMonstersDnD5()
         if self.label14 ~= nil then self.label14:destroy(); self.label14 = nil; end;
         if self.textEditor1 ~= nil then self.textEditor1:destroy(); self.textEditor1 = nil; end;
         if self.dataLink26 ~= nil then self.dataLink26:destroy(); self.dataLink26 = nil; end;
+        if self.checkBox27 ~= nil then self.checkBox27:destroy(); self.checkBox27 = nil; end;
         if self.dataLink21 ~= nil then self.dataLink21:destroy(); self.dataLink21 = nil; end;
         if self.layout21 ~= nil then self.layout21:destroy(); self.layout21 = nil; end;
         if self.scrollBox2 ~= nil then self.scrollBox2:destroy(); self.scrollBox2 = nil; end;

@@ -25,7 +25,15 @@
               end;
             end;
 
-          if toolSheet.enableType then
+          if toolSheet.enableSizes then
+						local isSize = filterSize(monster);
+						if not isSize then 
+							--write(monster.name .. " falhou no filtro de isSize");
+							goto nextmonster 
+						  end;
+						end;
+
+          if toolSheet.enableTypes then
 						local isType = filterType(monster);
 						if not isType then 
 							--write(monster.name .. " falhou no filtro de isType");
@@ -112,6 +120,26 @@
 
     <layout align="top" height="125">
       <layout align="top" height="25">
+        <checkBox align="left" width="75" horzTextAlign="center" text="SIZES" field="enableSizes" margins="{right=75}"/>
+      </layout>
+      <layout align="top" height="25">
+				<checkBox align="left" horzTextAlign="center" width="75" field="tiny" text="Tiny"/>
+        <checkBox align="left" horzTextAlign="center" width="75" field="small" text="Small"/>
+        <checkBox align="left" horzTextAlign="center" width="75" field="medium" text="Medium"/>
+        <checkBox align="left" horzTextAlign="center" width="75" field="large" text="Large"/>
+        <checkBox align="left" horzTextAlign="center" width="75" field="huge" text="Huge"/>
+			</layout>
+      <layout align="top" height="25">
+        <checkBox align="left" horzTextAlign="center" width="75" field="gargantuan" text="Gargantuan"/>
+  		</layout>
+		</layout>
+
+
+    <layout align="top" height="75">
+      <layout align="top" height="25">
+        <checkBox align="left" width="75" horzTextAlign="center" text="TYPES" field="enableTypes" margins="{right=75}"/>
+      </layout>
+      <layout align="top" height="25">
 				<checkBox align="left" horzTextAlign="center" width="75" field="aberration" text="Aberration"/>
 				<checkBox align="left" horzTextAlign="center" width="75" field="beast" text="Beast"/>
 				<checkBox align="left" horzTextAlign="center" width="75" field="celestial" text="Celestial"/>
@@ -191,8 +219,12 @@
 					</event>
 				</button>
 			</layout>-->
+    </layout>
 
+    <layout align="top" height="100">
+      <layout align="top" height="25">
 
+      </layout>
     </layout>
 
   </scrollBox>
