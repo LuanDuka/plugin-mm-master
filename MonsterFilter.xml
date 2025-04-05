@@ -7,15 +7,32 @@
 
         local types = {"Aberration", "Beast", "Celestial", "Construct", "Dragon", "Elemental", "Fey", "Fiend", "Giant", "Humanoid", "Monstrosity", "Ooze", "Plant", "Undead", "Swarm", "Shadow", "Titan", "Lycanthrope", "Death Knight", "Eldrazi"}
 
+            --if item existe on array
           	local function has_value (tab, val)
               for k, v in pairs(tab) do
                   if v == val then
                       return true
                   end
               end
-
                 return false
             end
+
+            --look for value until positions size
+            local function array_contain(array, str, size)
+              for i=1, size, 1 do
+                if array[i]==str then return true end;
+              end;
+              return false;
+            end;
+
+            local function filterSize(monster)
+              for i = 1, #sizes, 1 do
+                if toolSheet[sizesAux[i]] and monster.size == sizes[i] then
+                  return true;
+                end;
+              end;
+              return false;
+            end;
         ]]>
 
         
