@@ -30,6 +30,7 @@
 						if not isType then 
 							--write(monster.name .. " falhou no filtro de isType");
 							goto nextmonster 
+						  end;
 						end;
 
           if toolSheet.enableAlignment then
@@ -37,6 +38,7 @@
 						if not isAlignment then 
 							--write(monster.name .. " falhou no filtro de isAlignment");
 							goto nextmonster 
+						  end;
 						end;
 
           if toolSheet.enableArmorClass then
@@ -44,6 +46,7 @@
 						if not isArmorClass then 
 							--write(monster.name .. " falhou no filtro de isArmorClass");
 							goto nextmonster 
+						  end;
 						end;
 
           if toolSheet.enableHitPoints then
@@ -107,6 +110,90 @@
       <edit align="left" width="275" field="nameFilter"/>
     </layout>
 
+    <layout align="top" height="125">
+      <layout align="top" height="25">
+				<checkBox align="left" horzTextAlign="center" width="75" field="aberration" text="Aberration"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="beast" text="Beast"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="celestial" text="Celestial"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="construct" text="Construct"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="dragon" text="Dragon"/>
+			</layout>
+      <layout align="top" height="25">
+				<checkBox align="left" horzTextAlign="center" width="75" field="elemental" text="Elemental"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="fey" text="Fey"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="fiend" text="Fiend"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="giant" text="Giant"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="humanoid" text="Humanoid"/>
+			</layout>
+      <layout align="top" height="25">
+				<checkBox align="left" horzTextAlign="center" width="75" field="monstrosity" text="Monstrosity"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="ooze" text="Ooze"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="plant" text="Plant"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="undead" text="Undead"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="Swarm" text="Swarm"/>
+			</layout>
+      <layout align="top" height="25">
+				<checkBox align="left" horzTextAlign="center" width="75" field="shadow" text="Shadow"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="titan" text="Titan"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="lycanthrope" text="Lycanthrope"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="deathknight" text="Death Knight"/>
+				<checkBox align="left" horzTextAlign="center" width="75" field="eldrazi" text="Eldrazi"/>
+			</layout>
+      <!--       <layout align="top" height="25">
+				<button align="left" horzTextAlign="center" width="187" text="Marque Todas">
+					<event name="onClick">
+						if self.scope.node==nil then return end;
+						self.scope.node.aberration = true;
+						self.scope.node.beast = true;
+            self.scope.node.celestial = true;
+            self.scope.node.construct = true;
+            self.scope.node.dragon = true;
+            self.scope.node.elemental = true;
+            self.scope.node.fey = true;
+            self.scope.node.fiend = true;
+            self.scope.node.giant = true;
+            self.scope.node.humanoid = true;
+            self.scope.node.monstrosity = true;
+            self.scope.node.ooze = true;
+            self.scope.node.plant = true;
+            self.scope.node.undead = true;
+            self.scope.node.swarm = true;
+            self.scope.node.shadow = true;
+            self.scope.node.titan = true;
+            self.scope.node.lycanthrope = true;
+            self.scope.node.deathknight = true;
+            self.scope.node.eldrazi = true;
+					</event>
+				</button>
+				<button align="left" horzTextAlign="center" width="187" text="Desmarque Todas">
+					<event name="onClick">
+						if self.scope.node==nil then return end;
+            self.scope.node.aberration = false;
+            self.scope.node.beast = false;
+            self.scope.node.celestial = false;
+            self.scope.node.construct = false;
+            self.scope.node.dragon = false;
+            self.scope.node.elemental = false;
+            self.scope.node.fey = false;
+            self.scope.node.fiend = false;
+            self.scope.node.giant = false;
+            self.scope.node.humanoid = false;
+            self.scope.node.monstrosity = false;
+            self.scope.node.ooze = false;
+            self.scope.node.plant = false;
+            self.scope.node.undead = false;
+            self.scope.node.swarm = false;
+            self.scope.node.shadow = false;
+            self.scope.node.titan = false;
+            self.scope.node.lycanthrope = false;
+            self.scope.node.deathknight = false;
+            self.scope.node.eldrazi = false;
+					</event>
+				</button>
+			</layout>-->
+
+
+    </layout>
 
   </scrollBox>
 
