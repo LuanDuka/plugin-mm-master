@@ -64,6 +64,12 @@
 					local nome = tryLang(toolSheet.filteredMonsters[i].name);
 					if nome ~= nil then monster.name = monster.name .. " - " .. nome end;
 
+          monster.size= "Tamanho:" .. trans(toolSheet.filteredMonsters[i].size);
+          monster.type= "Tipo:" .. trans(toolSheet.filteredMonsters[i].type);
+          monster.alignment= "Alinhamento:" .. trans(toolSheet.filteredMonsters[i].alignment);
+          monster.armorClass= "Classe de Armadura:" .. trans(toolSheet.filteredMonsters[i].armorClass);
+          monster.hitPoints= "Pontos de Vida:" .. trans(toolSheet.filteredMonsters[i].size);
+
         end;
 
       </event>
