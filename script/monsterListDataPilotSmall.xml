@@ -1,0 +1,2027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monsterList>
+  <monster slug="a-mi-kuk">
+    <name>A-mi-kuk</name>
+    <size>Huge</size>
+    <type>Aberration</type>
+    <alignment>chaotic evil</alignment>
+    <armorClass>14</armorClass>
+    <armorDesc>natural armor</armorDesc>
+    <hitPoints>115</hitPoints>
+    <hitDice>10d12+50</hitDice>
+    <speeds>
+      <swim>40</swim>
+      <burrow>20</burrow>
+      <walk>30</walk>
+    </speeds>
+    <abilities>
+      <strength>21</strength>
+      <dexterity>8</dexterity>
+      <constitution>20</constitution>
+      <intelligence>7</intelligence>
+      <wisdom>14</wisdom>
+      <charisma>10</charisma>
+    </abilities>
+    <skills>
+      <athletics>10</athletics>
+      <perception>5</perception>
+      <stealth>2</stealth>
+    </skills>
+    <damageResistances>acid; bludgeoning, piercing, and slashing from nonmagical attacks</damageResistances>
+    <damageImmunities>cold</damageImmunities>
+    <conditionImmunities>paralyzed, restrained</conditionImmunities>
+    <senses>darkvision 60 ft., tremorsense 30 ft., passive Perception 15</senses>
+    <languages>understands Common but can’t speak</languages>
+    <challengeRating>7</challengeRating>
+    <cr>7</cr>
+    <description>Crimson slime covers this ungainly creature. Its tiny black eyes sit in an abnormally large head, and dozens of sharp teeth fill its small mouth. Its limbs end in large, grasping claws that look strong enough to crush the life out of a bear._  
+**Hidden Terror.** The dreaded a-mi-kuk is a terrifying creature that feasts on any who venture into the bleak and icy expanses of the world. A-mi-kuks prowl the edges of isolated communities, snatching those careless enough to wander too far from camp. They also submerge themselves beneath frozen waters, coming up from below to grab and strangle lone fishermen.  
+**Fear of Flames.** A-mi-kuks have a deathly fear of fire, and anyone using fire against one has a good chance of making it flee in terror, even if the fire-user would otherwise be outmatched. A-mi-kuks are not completely at the mercy of this fear, however, and lash out with incredible fury if cornered by someone using fire against them.  
+**Unknown Origins.** A-mi-kuks are not natural creatures and contribute little to the ecosystems in which they live. The monsters are never seen together, and some believe them to be a single monster, an evil spirit made flesh that appears whenever a group of humans has angered the gods. A-mi-kuks have no known allies and viciously attack any creatures that threaten them, regardless of the foe’s size or power.</description>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The a-mi-kuk makes two attacks: one with its bite and one with its grasping claw.</description>
+      </action>
+      <action>
+        <name>Bite</name>
+        <description>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) piercing damage.</description>
+        <attackBonus>8</attackBonus>
+        <damageDice>2d6+5</damageDice>
+      </action>
+      <action>
+        <name>Grasping Claw</name>
+        <description>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage, and the target is grappled (escape DC 16). The a-mi-kuk has two grasping claws, each of which can grapple only one target at a time.</description>
+        <attackBonus>8</attackBonus>
+        <damageDice>3d8+5</damageDice>
+      </action>
+      <action>
+        <name>Strangle</name>
+        <description>The a-mi-kuk strangles one creature grappled by it. The target must make a DC 16 Strength saving throw. On a failure, the target takes 27 (6d8) bludgeoning damage, can&apos;t breathe, speak, or cast spells, and begins suffocating. On a success, the target takes half the bludgeoning damage and is no longer grappled. Until this strangling grapple ends (escape DC 16), the target takes 13 (3d8) bludgeoning damage at the start of each of its turns. The a-mi-kuk can strangle up to two Medium or smaller targets or one Large target at a time.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Hold Breath</name>
+        <description>The a-mi-kuk can hold its breath for 30 minutes.</description>
+      </ability>
+      <ability>
+        <name>Fear of Fire</name>
+        <description>The a-mi-kuk is afraid of fire, and it won&apos;t move toward any fiery or burning objects. If presented forcefully with a flame, or if it is dealt fire damage, the a-mi-kuk must succeed on a DC 13 Wisdom saving throw or become frightened until the end of its next turn. After it has been frightened by a specific source of fire (such as the burning hands spell), the a-mi-kuk can&apos;t be frightened by that same source again for 24 hours.</description>
+      </ability>
+      <ability>
+        <name>Icy Slime</name>
+        <description>The a-mi-kuk&apos;s body is covered in a layer of greasy, ice-cold slime that grants it the benefits of freedom of movement. In addition, a creature that touches the a-mi-kuk or hits it with a melee attack while within 5 feet of it takes 7 (2d6) cold damage from the freezing slime. A creature grappled by the a-mi-kuk takes this damage at the start of each of its turns.</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="aalpamac">
+    <name>Aalpamac</name>
+    <size>Huge</size>
+    <type>Monstrosity</type>
+    <alignment>unaligned</alignment>
+    <armorClass>16</armorClass>
+    <armorDesc>natural armor</armorDesc>
+    <hitPoints>136</hitPoints>
+    <hitDice>13d12+52</hitDice>
+    <speeds>
+      <walk>15</walk>
+      <swim>50</swim>
+    </speeds>
+    <abilities>
+      <strength>21</strength>
+      <dexterity>10</dexterity>
+      <constitution>19</constitution>
+      <intelligence>2</intelligence>
+      <wisdom>16</wisdom>
+      <charisma>10</charisma>
+    </abilities>
+    <savingThrows>
+      <constitution>7</constitution>
+    </savingThrows>
+    <skills>
+      <perception>6</perception>
+    </skills>
+    <damageResistances>cold</damageResistances>
+    <senses>darkvision 60 ft., passive Perception 16</senses>
+    <languages>—</languages>
+    <challengeRating>7</challengeRating>
+    <cr>7</cr>
+    <description>A chimeric beast with the body of a massive trout and the front claws and head of a fierce wolverine bursts up from the icy water. Its eyes glow with a lambent green light, and the air around it bends and distorts as if viewed through a thick lens._  
+**Hungry Lake Monsters.** The aalpamac is a dangerous freshwater predator native to lakes and rivers. While primarily a water-dwelling monster, the aalpamac can haul itself onto shore with its front claws and does so to attack prey drinking or moving at the water’s edge. While not evil, the aalpamac is a ravenous and territorial creature, ranging over an area of up to a dozen miles in search of fresh meat. Aalpamacs are not picky about what they consume and even attack large boats if sufficiently hungry. They are solitary creatures and tolerate others of their own kind only during mating seasons.  
+**Local Legends.** An aalpamac that terrorizes the same lake or river for many years often develops a reputation among the locals of the area, particularly those living along the body of water in question. Inevitably, this gives rise to a number of stories exaggerating the size, ferocity, disposition, or powers of the aalpamac. The stories often give aalpamacs names that highlight their most prominent features or are specific to the area in which they live, such as “Chompo” or “the Heron Lake Monster.” These stories also make the aalpamac the target of adventurers and trophy hunters, most of whom either do not locate the beast or fall victim to it.</description>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The aalpamac makes three attacks: one with its bite and two with its claws.</description>
+      </action>
+      <action>
+        <name>Bite</name>
+        <description>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage.</description>
+        <attackBonus>8</attackBonus>
+        <damageDice>2d10+5</damageDice>
+      </action>
+      <action>
+        <name>Claws</name>
+        <description>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</description>
+        <attackBonus>8</attackBonus>
+        <damageDice>2d6+5</damageDice>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Amphibious</name>
+        <description>The aalpamac can breathe air and water.</description>
+      </ability>
+      <ability>
+        <name>Distance Distortion Aura</name>
+        <description>The presence of an aalpamac distorts the vision of creatures within 60 feet of it. Each creature that starts its turn in that area must succeed on a DC 15 Wisdom saving throw or be unable to correctly judge the distance between itself and its surroundings until the start of its next turn. An affected creature has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight, and it can&apos;t move more than half its speed on its turn. On a successful saving throw, the creature is immune to the aalpamac&apos;s Distance Distortion Aura for the next 24 hours. Creatures with blindsight, tremorsense, or truesight are unaffected by this trait.</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="aatxe">
+    <name>Aatxe</name>
+    <size>Large</size>
+    <type>Celestial</type>
+    <subtype>shapechanger</subtype>
+    <alignment>lawful good</alignment>
+    <armorClass>14</armorClass>
+    <armorDesc>natural armor</armorDesc>
+    <hitPoints>105</hitPoints>
+    <hitDice>10d10+50</hitDice>
+    <speeds>
+      <walk>50</walk>
+    </speeds>
+    <abilities>
+      <strength>22</strength>
+      <dexterity>12</dexterity>
+      <constitution>20</constitution>
+      <intelligence>10</intelligence>
+      <wisdom>14</wisdom>
+      <charisma>14</charisma>
+    </abilities>
+    <skills>
+      <athletics>9</athletics>
+      <intimidation>5</intimidation>
+    </skills>
+    <conditionImmunities>charmed, frightened</conditionImmunities>
+    <senses>passive Perception 12</senses>
+    <languages>understands all but can&apos;t speak</languages>
+    <challengeRating>5</challengeRating>
+    <cr>5</cr>
+    <actions>
+      <action>
+        <name>Gore</name>
+        <description>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) piercing damage.</description>
+        <attackBonus>9</attackBonus>
+        <damageDice>3d8+6</damageDice>
+      </action>
+      <action>
+        <name>Paw the Earth</name>
+        <description>The aatxe lowers its horns and paws at the ground with its hooves. Each creature within 30 feet of the aatxe must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature&apos;s saving throw is successful or the effect ends for it, the creature is immune to the aatxe&apos;s Paw the Earth for the next 24 hours.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Charge</name>
+        <description>If the aatxe moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</description>
+      </ability>
+      <ability>
+        <name>Know Thoughts</name>
+        <description>The aatxe can use an action to read the surface thoughts of one creature within 30 feet. This works like the detect thoughts spell, except it can only read surface thoughts and there is no limit to the duration. It can end this effect as a bonus action or by using an action to change the target. Limited Speech (Humanoid Form Only). The aatxe can verbally communicate only simple ideas and phrases, though it can understand and follow a conversation without issue.</description>
+      </ability>
+      <ability>
+        <name>Magic Resistance</name>
+        <description>The aatxe has advantage on saving throws against spells and other magical effects.</description>
+      </ability>
+      <ability>
+        <name>Shapechanger</name>
+        <description>The aatxe can use its action to polymorph into a Medium male humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn&apos;t transformed. It reverts to its true form if it dies.</description>
+      </ability>
+    </specialAbilities>
+    <legendaryActions>
+      <action>
+        <name>Detect</name>
+        <description>The aatxe makes a Wisdom (Perception) check.</description>
+      </action>
+      <action>
+        <name>Gore (Costs 2 Actions)</name>
+        <description>The aatxe makes one gore attack.</description>
+      </action>
+      <action>
+        <name>Bulwark (Costs 3 Actions)</name>
+        <description>The aatxe flares crimson with celestial power, protecting those nearby. The next attack that would hit an ally within 5 feet of the aatxe hits the aatxe instead.</description>
+      </action>
+    </legendaryActions>
+  </monster>
+  <monster slug="abaasy">
+    <name>Abaasy</name>
+    <size>Huge</size>
+    <type>Giant</type>
+    <alignment>neutral evil</alignment>
+    <armorClass>18</armorClass>
+    <armorDesc>armor scraps, Dual Shields</armorDesc>
+    <hitPoints>126</hitPoints>
+    <hitDice>11d12+55</hitDice>
+    <speeds>
+      <walk>40</walk>
+    </speeds>
+    <abilities>
+      <strength>20</strength>
+      <dexterity>10</dexterity>
+      <constitution>20</constitution>
+      <intelligence>9</intelligence>
+      <wisdom>14</wisdom>
+      <charisma>8</charisma>
+    </abilities>
+    <skills>
+      <perception>2</perception>
+    </skills>
+    <damageResistances>cold</damageResistances>
+    <senses>darkvision 60&apos;, passive Perception 15</senses>
+    <languages>Common, Giant</languages>
+    <challengeRating>8</challengeRating>
+    <cr>8</cr>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>Three melee attacks only one of which can be a Shield Shove. If it uses two hands to make a Spear attack it can&apos;t make an Iron Axe attack that turn.</description>
+      </action>
+      <action>
+        <name>Iron Axe</name>
+        <description>Melee Weapon Attack: +8 to hit, 10 ft., one target, 18 (3d8+5) slashing damage.</description>
+      </action>
+      <action>
+        <name>Shield Shove</name>
+        <description>Melee Weapon Attack: +8 to hit, 10 ft., one target, 15 (4d4+5) bludgeoning damage and target: DC 16 Str save or be knocked prone or pushed up to 15 ft. away from abaasy (abaasy&apos;s choice).</description>
+      </action>
+      <action>
+        <name>Spear</name>
+        <description>Melee or Ranged Weapon Attack: +8 to hit 15 ft. or range 20/60&apos; one target 15 (3d6+5) piercing damage or 18 (3d8+5) piercing damage if used with two hands to make a melee attack.</description>
+      </action>
+      <action>
+        <name>Eyebeam (Recharge 5-6)</name>
+        <description>Fires a beam of oscillating energy from its eye in a 90&apos; line that is 5 ft. wide. Each creature in the line: 27 (5d10) radiant (DC 16 Dex half).</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Armored Berserker</name>
+        <description>The pain caused by the iron plates bolted to its body keep it on the edge of madness. Whenever it starts its turn with 60 hp or fewer roll a d6. On a 6 it goes berserk. While berserk has resistance to B/P/S damage. On each of its turns while berserk it attacks nearest creature it can see. If no creature is near enough to move to and attack attacks an object with preference for object smaller than itself. Once it goes berserk continues to do so until destroyed or regains all its hp.</description>
+      </ability>
+      <ability>
+        <name>Dual Shields</name>
+        <description>Carries two shields which together give it a +3 bonus to its AC (included in its AC).</description>
+      </ability>
+      <ability>
+        <name>Poor Depth Perception</name>
+        <description>Has disadvantage on attack rolls vs. a target more than 30&apos; away from it.</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="abbanith-giant">
+    <name>Abbanith Giant</name>
+    <size>Large</size>
+    <type>Giant</type>
+    <alignment>neutral</alignment>
+    <armorClass>13</armorClass>
+    <armorDesc>natural armor</armorDesc>
+    <hitPoints>76</hitPoints>
+    <hitDice>9d10+27</hitDice>
+    <speeds>
+      <burrow>30</burrow>
+      <walk>40</walk>
+    </speeds>
+    <abilities>
+      <strength>20</strength>
+      <dexterity>9</dexterity>
+      <constitution>17</constitution>
+      <intelligence>10</intelligence>
+      <wisdom>13</wisdom>
+      <charisma>11</charisma>
+    </abilities>
+    <savingThrows>
+      <strength>7</strength>
+      <constitution>5</constitution>
+    </savingThrows>
+    <senses>tremorsense 120 ft., passive Perception 11</senses>
+    <languages>Giant, Terran</languages>
+    <challengeRating>3</challengeRating>
+    <cr>3</cr>
+    <description>This giant has a bulky, muscular body and small eyes in its broad, flat face. The giant’s thumbs end in large, black claws._  
+**Ancient Giants of the Deep.** Abbanith giants are among the oldest races of giants known to exist and are said to have been around since the world was first formed. Many scholars turn to the giants’ deep connection with the earth as evidence of this fact, and the giants themselves make no efforts to deny it. Indeed, the oral tradition of the abbanith giants dates back millennia, to a time when gods walked the land, elves were first learning the secrets of magic, and humans were still living in caves. Most abbanith giants wear simple tunics or shorts woven of a strange subterranean fungus, though leaders occasionally wear armor.  
+**Consummate Diggers.** Abbanith giants dwell almost exclusively underground and are adept at using their incredibly hard thumb claws to dig massive tunnels through the earth. Druids and wizards studying the giants’ unique biology have deduced that mineral-based materials actually soften when struck by their claws. This feature has also made them the target of derro and duergar slavers wishing to use their skills to mine precious gems or build their fortifications, something the giants violently oppose despite their normally peaceable nature.  
+**Allies of the Earth.** For as long as either race can remember, abbanith giants have been allies of the Open Game License</description>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The abbanith giant makes two thumb claw attacks.</description>
+      </action>
+      <action>
+        <name>Thumb Claw</name>
+        <description>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) piercing damage.</description>
+        <attackBonus>7</attackBonus>
+        <damageDice>2d6+5</damageDice>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>One with the Earth</name>
+        <description>The abbanith giant can detect the flows and rhythms of the earth—including things that interfere with these rhythms, such as earthquakes and magical anomalies. As a result, the abbanith giant can&apos;t be surprised by an opponent that is touching the ground. In addition, the giant has advantage on attack rolls against constructs and elementals made of earth or stone.</description>
+      </ability>
+      <ability>
+        <name>Siege Monster</name>
+        <description>The giant deals double damage to objects and structures and triple damage to objects and structures made of earth or stone.</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="aboleth">
+    <name>Aboleth</name>
+    <size>Large</size>
+    <type>Aberration</type>
+    <alignment>lawful evil</alignment>
+    <armorClass>17</armorClass>
+    <armorDesc>natural armor</armorDesc>
+    <hitPoints>135</hitPoints>
+    <hitDice>18d10+36</hitDice>
+    <speeds>
+      <walk>10</walk>
+      <swim>40</swim>
+    </speeds>
+    <abilities>
+      <strength>21</strength>
+      <dexterity>9</dexterity>
+      <constitution>15</constitution>
+      <intelligence>18</intelligence>
+      <wisdom>15</wisdom>
+      <charisma>18</charisma>
+    </abilities>
+    <savingThrows>
+      <constitution>6</constitution>
+      <intelligence>8</intelligence>
+      <wisdom>6</wisdom>
+    </savingThrows>
+    <skills>
+      <history>12</history>
+      <perception>10</perception>
+    </skills>
+    <senses>darkvision 120 ft., passive Perception 20</senses>
+    <languages>Deep Speech, telepathy 120 ft.</languages>
+    <challengeRating>10</challengeRating>
+    <cr>10</cr>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The aboleth makes three tentacle attacks.</description>
+      </action>
+      <action>
+        <name>Tentacle</name>
+        <description>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature&apos;s skin becomes translucent and slimy, the creature can&apos;t regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.</description>
+        <attackBonus>9</attackBonus>
+        <damageDice>2d6</damageDice>
+      </action>
+      <action>
+        <name>Tail</name>
+        <description>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage.</description>
+        <attackBonus>9</attackBonus>
+        <damageDice>3d6</damageDice>
+      </action>
+      <action>
+        <name>Enslave (3/day)</name>
+        <description>The aboleth targets one creature it can see within 30 ft. of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The charmed target is under the aboleth&apos;s control and can&apos;t take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.
+Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Amphibious</name>
+        <description>The aboleth can breathe air and water.</description>
+      </ability>
+      <ability>
+        <name>Mucous Cloud</name>
+        <description>While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 ft. of it must make a DC 14 Constitution saving throw. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater.</description>
+      </ability>
+      <ability>
+        <name>Probing Telepathy</name>
+        <description>If a creature communicates telepathically with the aboleth, the aboleth learns the creature&apos;s greatest desires if the aboleth can see the creature.</description>
+      </ability>
+    </specialAbilities>
+    <legendaryActions>
+      <action>
+        <name>Detect</name>
+        <description>The aboleth makes a Wisdom (Perception) check.</description>
+      </action>
+      <action>
+        <name>Tail Swipe</name>
+        <description>The aboleth makes one tail attack.</description>
+      </action>
+      <action>
+        <name>Psychic Drain (Costs 2 Actions)</name>
+        <description>One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.</description>
+      </action>
+    </legendaryActions>
+  </monster>
+  <monster slug="aboleth-a5e">
+    <name>Aboleth</name>
+    <size>Large</size>
+    <type>Aberration</type>
+    <alignment></alignment>
+    <armorClass>17</armorClass>
+    <hitPoints>171</hitPoints>
+    <hitDice>18d10+72</hitDice>
+    <speeds>
+      <walk>10</walk>
+      <swim>40</swim>
+    </speeds>
+    <abilities>
+      <strength>20</strength>
+      <dexterity>12</dexterity>
+      <constitution>18</constitution>
+      <intelligence>20</intelligence>
+      <wisdom>20</wisdom>
+      <charisma>18</charisma>
+    </abilities>
+    <savingThrows>
+      <dexterity>5</dexterity>
+      <constitution>8</constitution>
+      <intelligence>9</intelligence>
+      <wisdom>9</wisdom>
+    </savingThrows>
+    <skills>
+      <deception>8</deception>
+      <history>9</history>
+      <stealth>5</stealth>
+    </skills>
+    <senses>blindsight 30 ft., darkvision 120 ft., passive Perception 15</senses>
+    <languages>Deep Speech, telepathy 120 ft.</languages>
+    <challengeRating>11</challengeRating>
+    <cr>11</cr>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The aboleth attacks three times with its tentacle.</description>
+      </action>
+      <action>
+        <name>Tentacle</name>
+        <description>Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 19 (4d6 + 5) bludgeoning damage. The aboleth can choose instead to deal 0 damage. If the target is a creature  it makes a DC 16 Constitution saving throw. On a failure  it contracts a disease called the Sea Change. On a success  it is immune to this disease for 24 hours. While affected by this disease  the target has disadvantage on Wisdom saving throws. After 1 hour  the target grows gills  it can breathe water  its skin becomes slimy  and it begins to suffocate if it goes 12 hours without being immersed in water for at least 1 hour. This disease can be removed with a disease-removing spell cast with at least a 4th-level spell slot  and it ends 24 hours after the aboleth dies.</description>
+      </action>
+      <action>
+        <name>Slimy Cloud (1/Day, While Bloodied)</name>
+        <description>While underwater  the aboleth exudes a cloud of inky slime in a 30-foot-radius sphere. Each non-aboleth creature in the area when the cloud appears makes a DC 16 Constitution saving throw. On a failure  it takes 44 (8d10) poison damage and is poisoned for 1 minute. The slime extends around corners  and the area is heavily obscured for 1 minute or until a strong current dissipates the cloud.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Amphibious</name>
+        <description>The aboleth can breathe air and water.</description>
+      </ability>
+      <ability>
+        <name>Innate Spellcasting</name>
+        <description>The aboleths spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no components: 3/day each: detect thoughts (range 120 ft, desc: ), project image (range 1 mile), phantasmal force</description>
+      </ability>
+    </specialAbilities>
+    <legendaryActions>
+      <action>
+        <name>The aboleth can take 2 legendary actions</name>
+        <description>Only one legendary action can be used at a time and only at the end of another creatures turn. It regains spent legendary actions at the start of its turn.</description>
+      </action>
+      <action>
+        <name>Move</name>
+        <description>The aboleth moves up to its swim speed without provoking opportunity attacks.</description>
+      </action>
+      <action>
+        <name>Telepathic Summon</name>
+        <description>One creature within 90 feet makes a DC 16 Wisdom saving throw. On a failure, it must use its reaction, if available, to move up to its speed toward the aboleth by the most direct route that avoids hazards, not avoiding opportunity attacks. This is a magical charm effect.</description>
+      </action>
+      <action>
+        <name>Baleful Charm (Costs 2 Actions)</name>
+        <description>The aboleth targets one creature within 60 feet that has contracted Sea Change. The target makes a DC 16 Wisdom saving throw. On a failure, it is magically charmed by the aboleth until the aboleth dies. The target can repeat this saving throw every 24 hours and when it takes damage from the aboleth or the aboleths allies. While charmed in this way, the target can communicate telepathically with the aboleth over any distance and it follows the aboleths orders.</description>
+      </action>
+      <action>
+        <name>Soul Drain (Costs 2 Actions)</name>
+        <description>One creature charmed by the aboleth takes 22 (4d10) psychic damage, and the aboleth regains hit points equal to the damage dealt.</description>
+      </action>
+    </legendaryActions>
+  </monster>
+  <monster slug="aboleth_bf">
+    <name>Aboleth</name>
+    <size>large</size>
+    <type>Aberration</type>
+    <alignment></alignment>
+    <armorClass>17</armorClass>
+    <armorDesc>natural armor</armorDesc>
+    <hitPoints>165</hitPoints>
+    <hitDice></hitDice>
+    <speeds>
+      <walk>10</walk>
+      <swim>40</swim>
+    </speeds>
+    <abilities>
+      <strength>20</strength>
+      <dexterity>8</dexterity>
+      <constitution>22</constitution>
+      <intelligence>26</intelligence>
+      <wisdom>22</wisdom>
+      <charisma>18</charisma>
+    </abilities>
+    <savingThrows>
+      <strength>5</strength>
+      <dexterity>-1</dexterity>
+      <constitution>6</constitution>
+      <intelligence>8</intelligence>
+      <wisdom>6</wisdom>
+      <charisma>4</charisma>
+    </savingThrows>
+    <damageResistances>acid,Aberrant Resilience</damageResistances>
+    <damageImmunities>psychic</damageImmunities>
+    <senses>darkvision 120 ft.</senses>
+    <languages>Deep Speech,telepathy 120 ft.</languages>
+    <challengeRating>10</challengeRating>
+    <cr>10</cr>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The aboleth makes three Tentacle or Psychic Bolt attacks. If two Tentacle attacks hit one target, the target must succeed on a DC 16 CON save or contract the _slime pox_ disease (see the Slime Pox trait).</description>
+      </action>
+      <action>
+        <name>Tentacle</name>
+        <description>_Melee Weapon Attack:_ +9 to hit, reach 10 ft., one target. _Hit:_ 15 (3d6+5) bludgeoning damage.</description>
+      </action>
+      <action>
+        <name>Psychic Bolt</name>
+        <description>_Ranged Spell Attack:_ +8 to hit, range 120 ft., one target. _Hit:_ 14 (3d6+4) psychic damage.</description>
+      </action>
+      <action>
+        <name>Psychic Torrent (Recharge 5-6)</name>
+        <description>The aboleth floods the minds of up to three creatures it can see within 60 feet of it with random and horrific memories from its eons-long life. Each target must make a DC 16 WIS save. On a failure, a creature takes 49 (14d6) psychic damage and is incapacitated until the end of its next turn, as its mind reels from the torrent of images, thoughts, and memories. On a success, a creature takes half the damage and isn&apos;t incapacitated.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Aberrant Resilience</name>
+        <description>The aboleth is resistant to the charmed, frightened, paralyzed, and stunned conditions, and it has advantage on saves against spells or effects that would alter its form.</description>
+      </ability>
+      <ability>
+        <name>Amphibious</name>
+        <description>The aboleth can breathe air and water.</description>
+      </ability>
+      <ability>
+        <name>Legendary Resistance (3/Day)</name>
+        <description>If the aboleth fails a save, it can choose to succeed instead.</description>
+      </ability>
+      <ability>
+        <name>Probing Telepathy</name>
+        <description>If a creature the aboleth can see communicates telepathically with the aboleth, the aboleth learns the creature&apos;s greatest desires.</description>
+      </ability>
+      <ability>
+        <name>Slime Pox</name>
+        <description>Characterized by the slimy pustules that erupt across the victim&apos;s body, _slime pox_ is a disease that infects creatures attacked by an aboleth or that come into contact with an aboleth&apos;s slime. Until the disease is cured, the infected creature can breathe air and water, can&apos;t regain HP except when underwater, and takes 6 (1d12) acid damage for every 1 hour it remains outside of water or without moisture applied to its skin. Every 24 hours that elapse, the infected creature must make a DC 16 CHA save. Each time a creature fails this save, it views the infecting aboleth more and more favorably, becoming the aboleth&apos;s doting and protective thrall after three failed saves.&lt;br&gt;The successes and failures don&apos;t need to be consecutive, but once a creature has acquired three of a kind, it no longer has to make this save, resulting in either the creature becoming a thrall of the aboleth or an autonomous - though infected - creature. _Slime pox_ can be cured only by the heal spell or similar magic.</description>
+      </ability>
+      <ability>
+        <name>Slimy Skin</name>
+        <description>The aboleth is coated in an otherworldly mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 feet of it must succeed on a DC 16 CON save or be infected with _slime pox_ (see the Slime Pox trait).</description>
+      </ability>
+    </specialAbilities>
+    <legendaryActions>
+      <action>
+        <name>Detect</name>
+        <description>The aboleth automatically detects every creature and trap within 60 feet of it, pinpointing the current location of each.</description>
+      </action>
+      <action>
+        <name>Swim</name>
+        <description>The aboleth swims up to half its speed without provoking opportunity attacks.</description>
+      </action>
+      <action>
+        <name>Slime Drain (Costs 2 Actions)</name>
+        <description>One creature infected with _slime pox_ within 30 feet of the aboleth takes 10 (3d6) acid damage, and the aboleth regains HP equal to the damage the creature takes.</description>
+      </action>
+    </legendaryActions>
+  </monster>
+  <monster slug="aboleth-thrall-a5e">
+    <name>Aboleth Thrall</name>
+    <size>Medium</size>
+    <type>Humanoid</type>
+    <alignment></alignment>
+    <armorClass>12</armorClass>
+    <hitPoints>45</hitPoints>
+    <hitDice>7d8+14</hitDice>
+    <speeds>
+      <walk>30</walk>
+      <swim>30</swim>
+    </speeds>
+    <abilities>
+      <strength>14</strength>
+      <dexterity>14</dexterity>
+      <constitution>14</constitution>
+      <intelligence>10</intelligence>
+      <wisdom>10</wisdom>
+      <charisma>12</charisma>
+    </abilities>
+    <skills>
+      <any>0</any>
+    </skills>
+    <senses>passive Perception 10</senses>
+    <languages>Common, unlimited-range telepathy with aboleth</languages>
+    <challengeRating>2</challengeRating>
+    <cr>2</cr>
+    <actions>
+      <action>
+        <name>Poison Ink Knife</name>
+        <description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage plus 10 (3d6) poison damage.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Sea Changed</name>
+        <description>The aboleth thrall can breathe water and air, but must bathe in water for 1 hour for every 12 hours it spends dry or it begins to suffocate. It is magically charmed by the aboleth.</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="aboleth-nihilith">
+    <name>Aboleth, Nihilith</name>
+    <size>Large</size>
+    <type>Undead</type>
+    <alignment>chaotic evil</alignment>
+    <armorClass>17</armorClass>
+    <armorDesc>natural armor</armorDesc>
+    <hitPoints>135</hitPoints>
+    <hitDice>18d10+36</hitDice>
+    <speeds>
+      <hover>true</hover>
+      <walk>10</walk>
+      <swim>40</swim>
+      <fly>50</fly>
+    </speeds>
+    <abilities>
+      <strength>21</strength>
+      <dexterity>9</dexterity>
+      <constitution>15</constitution>
+      <intelligence>18</intelligence>
+      <wisdom>15</wisdom>
+      <charisma>18</charisma>
+    </abilities>
+    <savingThrows>
+      <constitution>6</constitution>
+      <intelligence>8</intelligence>
+      <wisdom>6</wisdom>
+    </savingThrows>
+    <skills>
+      <history>12</history>
+      <perception>10</perception>
+    </skills>
+    <damageResistances>acid, fire, lightning, thunder (only when in ethereal form); bludgeoning, piercing and slashing from nonmagical attacks</damageResistances>
+    <damageImmunities>cold, necrotic, poison; bludgeoning, piercing and slashing from nonmagical attacks (only when in ethereal form)</damageImmunities>
+    <conditionImmunities>charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</conditionImmunities>
+    <senses>darkvision 120 ft., passive Perception 20</senses>
+    <languages>Void Speech, telepathy 120 ft.</languages>
+    <challengeRating>12</challengeRating>
+    <cr>12</cr>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The nihileth makes three tentacle attacks or three withering touches, depending on what form it is in.</description>
+      </action>
+      <action>
+        <name>Tentacle (Material Form Only)</name>
+        <description>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target creature is hit, it must make a successful DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute; during that time, it can be removed by lesser restoration or comparable magic. After 1 minute, the diseased creature&apos;s skin becomes translucent and slimy. The creature cannot regain hit points unless it is entirely underwater, and the disease can only be removed by heal or comparable magic. Unless the creature is fully submerged or frequently doused with water, it takes 6 (1d12) acid damage every 10 minutes. If a creature dies while diseased, it rises in 1d6 rounds as a nihilethic zombie. This zombie is permanently dominated by the nihileth.</description>
+        <attackBonus>9</attackBonus>
+        <damageDice>2d6+5</damageDice>
+      </action>
+      <action>
+        <name>Withering Touch (Ethereal Form Only)</name>
+        <description>Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit: 14 (3d6 + 4) necrotic damage.</description>
+        <attackBonus>8</attackBonus>
+        <damageDice>3d6+4</damageDice>
+      </action>
+      <action>
+        <name>Form Swap</name>
+        <description>As a bonus action, the nihileth can alter between its material and ethereal forms at will.</description>
+      </action>
+      <action>
+        <name>Tail (Material Form Only)</name>
+        <description>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage.</description>
+        <attackBonus>9</attackBonus>
+        <damageDice>3d6+5</damageDice>
+      </action>
+      <action>
+        <name>Enslave (3/day)</name>
+        <description>The nihileth targets one creature it can see within 30 ft. of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the nihileth until the nihileth dies or until it is on a different plane of existence from the target. The charmed target is under the nihileth&apos;s control and can&apos;t take reactions, and the nihileth and the target can communicate telepathically with each other over any distance. Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the nihileth.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Undead Fortitude</name>
+        <description>If damage reduces the nihileth to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the nihileth drops to 1 hit point instead.</description>
+      </ability>
+      <ability>
+        <name>Dual State</name>
+        <description>A nihileth exists upon the Material Plane in one of two forms and can switch between them at will. In its material form, it has resistance to damage from nonmagical attacks. In its ethereal form, it is immune to damage from nonmagical attacks. The creature&apos;s ethereal form appears as a dark purple outline of its material form, with a blackish-purple haze within. A nihileth in ethereal form can move through air as though it were water, with a fly speed of 40 feet.</description>
+      </ability>
+      <ability>
+        <name>Void Aura</name>
+        <description>The undead nihileth is surrounded by a chilling cloud. A living creature that starts its turn within 5 feet of a nihileth must make a successful DC 14 Constitution saving throw or be slowed until the start of its next turn. In addition, any creature that has been diseased by a nihileth or a nihilethic zombie takes 7 (2d6) cold damage every time it starts its turn within the aura.</description>
+      </ability>
+      <ability>
+        <name>Infecting Telepathy</name>
+        <description>If a creature communicates telepathically with the nihileth, or uses a psychic attack against it, the nihileth can spread its disease to the creature. The creature must succeed on a DC 14 Wisdom save or become infected with the same disease caused by the nihileth&apos;s tentacle attack.</description>
+      </ability>
+      <ability>
+        <name>Nihileth&apos;s Lair</name>
+        <description>on initiative count 20 (losing initiative ties), the nihileth can take a lair action to create one of the magical effects as per an aboleth, or the void absorbance action listed below. The nihileth cannot use the same effect two rounds in a row.
+
+- Void Absorbance: A nihileth can pull the life force from those it has converted to nihilethic zombies to replenish its own life. This takes 18 (6d6) hit points from zombies within 30 feet of the nihileth, spread evenly between the zombies, and healing the nihileth. If a zombie reaches 0 hit points from this action, it perishes with no Undead Fortitude saving throw.</description>
+      </ability>
+      <ability>
+        <name>Regional Effects</name>
+        <description>the regional effects of a nihileth&apos;s lair are the same as that of an aboleth, except as following.
+
+- Water sources within 1 mile of a nihileth&apos;s lair are not only supernaturally fouled but can spread the disease of the nihileth. A creature who drinks from such water must make a successful DC 14 Constitution check or become infected.</description>
+      </ability>
+    </specialAbilities>
+    <legendaryActions>
+      <action>
+        <name>Detect</name>
+        <description>The aboleth makes a Wisdom (Perception) check.</description>
+      </action>
+      <action>
+        <name>Tail Swipe</name>
+        <description>The aboleth makes one tail attack.</description>
+      </action>
+      <action>
+        <name>Psychic Drain (Costs 2 Actions)</name>
+        <description>One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.</description>
+      </action>
+    </legendaryActions>
+  </monster>
+  <monster slug="abominable-beauty">
+    <name>Abominable Beauty</name>
+    <size>Medium</size>
+    <type>Fey</type>
+    <alignment>neutral evil</alignment>
+    <armorClass>18</armorClass>
+    <armorDesc>natural armor</armorDesc>
+    <hitPoints>187</hitPoints>
+    <hitDice>22d8+88</hitDice>
+    <speeds>
+      <walk>30</walk>
+    </speeds>
+    <abilities>
+      <strength>17</strength>
+      <dexterity>18</dexterity>
+      <constitution>18</constitution>
+      <intelligence>17</intelligence>
+      <wisdom>16</wisdom>
+      <charisma>26</charisma>
+    </abilities>
+    <savingThrows>
+      <dexterity>8</dexterity>
+      <constitution>8</constitution>
+      <charisma>12</charisma>
+    </savingThrows>
+    <skills>
+      <deception>12</deception>
+      <perception>7</perception>
+      <performance>12</performance>
+      <persuasion>12</persuasion>
+    </skills>
+    <damageImmunities>fire</damageImmunities>
+    <senses>passive Perception 17</senses>
+    <languages>Common, Draconic, Elvish, Sylvan</languages>
+    <challengeRating>11</challengeRating>
+    <cr>11</cr>
+    <description>_An otherworldly humanoid of such indescribable beauty, it pains anyone’s eyes to gaze upon her._  
+**Beauty that Destroys.** An abominable beauty is so perfect that her gaze blinds, her voice is so melodious that no ears can withstand it, and her touch is so tantalizing that it burns like fire. In adolescence, this fey creature adopts features that meet the superficial ideals of the nearest humanoid population: long‐legged elegance near elves, a stout figure with lustrous hair near dwarves, unscarred or emerald skin near goblins.  
+**Jealous and Cruel.** Abominable beauties are so consumed with being the most beautiful creature in the region that they almost invariably grow jealous and paranoid about potential rivals. Because such an abominable beauty cannot abide competition, she seeks to kill anyone whose beauty is compared to her own.  
+**Male of the Species.** Male abominable beauties are rare but even more jealous in their rages.</description>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The abominable beauty makes two slam attacks.</description>
+      </action>
+      <action>
+        <name>Slam</name>
+        <description>+8 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) damage plus 28 (8d6) fire damage.</description>
+      </action>
+      <action>
+        <name>Blinding Gaze (Recharge 5-6)</name>
+        <description>A creature within 30 feet of the abominable beauty who is targeted by this attack and who meets the abominable beauty&apos;s gaze must succeed on a DC 17 Charisma saving throw or be blinded. If the saving throw succeeds, the target creature is permanently immune to this abominable beauty&apos;s Blinding Gaze.</description>
+      </action>
+      <action>
+        <name>Deafening Voice (Recharge 5-6)</name>
+        <description>An abominable beauty&apos;s voice is lovely, but any creature within 90 feet and able to hear her when she makes her Deafening Voice attack must succeed on a DC 16 Constitution saving throw or be permanently deafened.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Burning Touch</name>
+        <description>The abominable beauty&apos;s slam attacks do 28 (8d6) fire damage. A creature who touches her also takes 28 (8d6) fire damage.</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="abominablebeauty-tob1-2023">
+    <name>Abominable Beauty</name>
+    <size>Medium</size>
+    <type>Fey</type>
+    <alignment>Neutral Evil</alignment>
+    <armorClass>18</armorClass>
+    <armorDesc>natural armor</armorDesc>
+    <hitPoints>187</hitPoints>
+    <hitDice>22d8 + 88</hitDice>
+    <speeds>
+      <walk>30</walk>
+    </speeds>
+    <abilities>
+      <strength>17</strength>
+      <dexterity>18</dexterity>
+      <constitution>18</constitution>
+      <intelligence>17</intelligence>
+      <wisdom>16</wisdom>
+      <charisma>26</charisma>
+    </abilities>
+    <savingThrows>
+      <dexterity>8</dexterity>
+      <constitution>8</constitution>
+      <charisma>12</charisma>
+    </savingThrows>
+    <skills>
+      <deception>12</deception>
+      <perception>7</perception>
+      <performance>12</performance>
+      <persuasion>12</persuasion>
+    </skills>
+    <damageResistances>False</damageResistances>
+    <damageImmunities>fire</damageImmunities>
+    <damageVulnerabilities>False</damageVulnerabilities>
+    <conditionImmunities>False</conditionImmunities>
+    <senses>passive Perception 17</senses>
+    <languages>Common, Draconic, Elvish, Sylvan</languages>
+    <challengeRating>11</challengeRating>
+    <cr>11</cr>
+    <description>False</description>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The abominable beauty uses Blinding Gaze. She then makes two Slam attacks.</description>
+      </action>
+      <action>
+        <name>Slam</name>
+        <description>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage plus 21 (6d6) fire damage.</description>
+      </action>
+      <action>
+        <name>Blinding Gaze</name>
+        <description>The abominable beauty fixes her gaze on a creature within 30 feet of her. If the target can see the beauty&apos;s eyes, the target must succeed on a DC 16 Charisma saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature&apos;s saving throw is successful, the creature is immune to the abominable beauty&apos;s Blinding Gaze for the next 24 hours.</description>
+      </action>
+      <action>
+        <name>Deafening Voice (Recharge 5-6)</name>
+        <description>The abominable beauty speaks a lilting incantation. Each creature within 30 feet of her and that can hear her voice must make a DC 16 Constitution saving throw. On a failure, a creature takes 31 (9d6) thunder damage and is deafened for 1 hour. On a success, a creature takes half the damage, isn&apos;t deafened, and is immune to the abominable beauty&apos;s Deafening Voice for the next 24 hours.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Burning Touch</name>
+        <description>When the abominable beauty hits with a Slam attack, the Slam deals an extra 21 (6d6) fire damage (included in the attack). In addition, a creature that touches the abominable beauty or hits her with a melee weapon attack while within 5 feet of her takes 10 (3d6) fire damage.</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="abominable-snowman-a5e">
+    <name>Abominable Snowman</name>
+    <size>Large</size>
+    <type>Monstrosity</type>
+    <alignment></alignment>
+    <armorClass>12</armorClass>
+    <hitPoints>136</hitPoints>
+    <hitDice>16d10+48</hitDice>
+    <speeds>
+      <walk>40</walk>
+      <climb>40</climb>
+    </speeds>
+    <abilities>
+      <strength>18</strength>
+      <dexterity>12</dexterity>
+      <constitution>16</constitution>
+      <intelligence>8</intelligence>
+      <wisdom>12</wisdom>
+      <charisma>16</charisma>
+    </abilities>
+    <skills>
+      <perception>3</perception>
+      <stealth>3</stealth>
+    </skills>
+    <damageImmunities>cold</damageImmunities>
+    <senses>passive Perception 13</senses>
+    <languages>Yeti</languages>
+    <challengeRating>4</challengeRating>
+    <cr>4</cr>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The yeti uses Chilling Gaze and makes two claw attacks.</description>
+      </action>
+      <action>
+        <name>Claw</name>
+        <description>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (2d4 + 4) slashing damage.</description>
+      </action>
+      <action>
+        <name>Chilling Gaze (Gaze)</name>
+        <description>One creature within 30 feet that is not immune to cold damage makes a DC 13 Constitution saving throw. On a failure  the creature takes 10 (3d6) cold damage and is paralyzed for 1 minute. It repeats the saving throw at the end of each of its turns  ending the effect on a success. If a creatures saving throw is successful or the effect ends for it  it is immune to any Chilling Gaze for 24 hours.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Camouflage</name>
+        <description>The yeti has advantage on Stealth checks made to hide in snowy terrain.</description>
+      </ability>
+      <ability>
+        <name>Fire Fear</name>
+        <description>When the yeti takes fire damage, it is rattled until the end of its next turn.</description>
+      </ability>
+      <ability>
+        <name>Storm Sight</name>
+        <description>The yetis vision is not obscured by weather conditions.</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="accursed-defiler">
+    <name>Accursed Defiler</name>
+    <size>Medium</size>
+    <type>Undead</type>
+    <alignment>neutral evil</alignment>
+    <armorClass>12</armorClass>
+    <hitPoints>75</hitPoints>
+    <hitDice>10d8+30</hitDice>
+    <speeds>
+      <walk>30</walk>
+    </speeds>
+    <abilities>
+      <strength>19</strength>
+      <dexterity>14</dexterity>
+      <constitution>17</constitution>
+      <intelligence>6</intelligence>
+      <wisdom>15</wisdom>
+      <charisma>14</charisma>
+    </abilities>
+    <skills>
+      <perception>4</perception>
+      <stealth>4</stealth>
+    </skills>
+    <damageResistances>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</damageResistances>
+    <damageImmunities>poison</damageImmunities>
+    <conditionImmunities>charmed, exhaustion, frightened, poisoned</conditionImmunities>
+    <senses>darkvision 60 ft., passive Perception 14</senses>
+    <languages>understands an ancient language, but can&apos;t speak</languages>
+    <challengeRating>4</challengeRating>
+    <cr>4</cr>
+    <description>_A gaunt figure in a tattered black mantle shrouded in a cloud of whirling sand. Thin cracks run across its papyrus-dry skin and around its hollow, black eyes._  
+**Cursed to Wander and Thirst.** Accursed defilers are the remnants of an ancient tribe that desecrated a sacred oasis. For their crime, the wrathful spirits cursed the tribe to forever wander the wastes attempting to quench an insatiable thirst. Each defiler carries a parched sandstorm within its lungs and in the flowing sand in its veins. Wherever they roam, they leave only the desiccated husks of their victims littering the sand.  
+**Unceasing Hatred.** The desperate or foolish sometimes try to speak with these ill-fated creatures in their archaic native tongue, to learn their secrets or to bargain for their services, but a defiler’s heart is blackened with hate and despair, leaving room for naught but woe.  
+**Servants to Great Evil.** On very rare occasions, accursed defilers serve evil high priests, fext, or soulsworn warlocks as bodyguards and zealous destroyers, eager to spread the withering desert’s hand to new lands.  
+**Undead Nature.** An accursed defiler doesn’t require air, food, drink, or sleep.</description>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The accursed defiler makes two slam attacks.</description>
+      </action>
+      <action>
+        <name>Slam</name>
+        <description>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) bludgeoning damage. If a creature is hit by this attack twice in the same round (from the same or different accursed defilers), the target must make a DC 13 Constitution saving throw or gain one level of exhaustion.</description>
+        <attackBonus>6</attackBonus>
+        <damageDice>2d6</damageDice>
+      </action>
+      <action>
+        <name>Sandslash (Recharge 5-6)</name>
+        <description>As an action, the accursed defiler intensifies the vortex of sand that surrounds it. All creatures within 10 feet of the accursed defiler take 21 (6d6) slashing damage, or half damage with a successful DC 14 Dexterity saving throw.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Cursed Existence</name>
+        <description>When it drops to 0 hit points in desert terrain, the accursed defiler&apos;s body disintegrates into sand and a sudden parched breeze. However, unless it was killed in a hallowed location, with radiant damage, or by a blessed creature, the accursed defiler reforms at the next sundown 1d100 miles away in a random direction.</description>
+      </ability>
+      <ability>
+        <name>Sand Shroud</name>
+        <description>A miniature sandstorm constantly whirls around the accursed defiler in a 10-foot radius. This area is lightly obscured to creatures other than an accursed defiler. Wisdom (Survival) checks made to follow tracks left by an accursed defiler or other creatures that were traveling in its sand shroud are made with disadvantage.</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="accurseddefiler-tob1-2023">
+    <name>Accursed Defiler</name>
+    <size>Medium</size>
+    <type>Undead</type>
+    <alignment>Neutral Evil</alignment>
+    <armorClass>12</armorClass>
+    <hitPoints>75</hitPoints>
+    <hitDice>10d8 + 30</hitDice>
+    <speeds>
+      <walk>30</walk>
+    </speeds>
+    <abilities>
+      <strength>19</strength>
+      <dexterity>14</dexterity>
+      <constitution>17</constitution>
+      <intelligence>6</intelligence>
+      <wisdom>15</wisdom>
+      <charisma>14</charisma>
+    </abilities>
+    <skills>
+      <perception>4</perception>
+      <stealth>4</stealth>
+    </skills>
+    <damageResistances>necrotic; bludgeoning, piercing, and slashing from nonmagical attacks</damageResistances>
+    <damageImmunities>poison</damageImmunities>
+    <damageVulnerabilities>False</damageVulnerabilities>
+    <conditionImmunities>charmed, exhaustion, frightened, poisoned</conditionImmunities>
+    <senses>darkvision 60 ft., passive Perception 14</senses>
+    <languages>understands an ancient language but can’t speak</languages>
+    <challengeRating>4</challengeRating>
+    <cr>4</cr>
+    <description>False</description>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The accursed defiler makes two Slam attacks.</description>
+      </action>
+      <action>
+        <name>Slam</name>
+        <description>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) bludgeoning damage. If the accursed defiler scores a critical hit, the target suffers one level of exhaustion.</description>
+      </action>
+      <action>
+        <name>Sandslash (Recharge 5-6)</name>
+        <description>The accursed defiler intensifies the vortex of sand that surrounds it. Each creature within 10 feet of the accursed defiler must make a DC 14 Dexterity saving throw, taking 21 (6d6) slashing damage on a failed save, or half as much damage on a successful one.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Cursed Existence</name>
+        <description>When it drops to 0 hp in desert terrain, the accursed defiler&apos;s body disintegrates into sand and a parched breeze. However, unless it was killed in a hallowed location, with radiant damage, or by a creature under the effects of the bless spell, the accursed defiler reforms at the next sundown 1d100 miles away from where it died in a random direction.</description>
+      </ability>
+      <ability>
+        <name>Sand Shroud</name>
+        <description>A miniature sandstorm constantly whirls around the accursed defiler in a 10-foot radius. This area is lightly obscured to creatures other than the accursed defiler. Wisdom (Survival) checks made to follow tracks left by the accursed defiler or other creatures that were traveling in its sand shroud are made with disadvantage.</description>
+      </ability>
+      <ability>
+        <name>Undead Nature</name>
+        <description>The accursed defiler doesn&apos;t require air, food, drink, or sleep.</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="accursed-guardian-naga-a5e">
+    <name>Accursed Guardian Naga</name>
+    <size>Large</size>
+    <type>Monstrosity</type>
+    <alignment></alignment>
+    <armorClass>18</armorClass>
+    <hitPoints>136</hitPoints>
+    <hitDice>16d10+48</hitDice>
+    <speeds>
+      <walk>40</walk>
+      <swim>40</swim>
+    </speeds>
+    <abilities>
+      <strength>16</strength>
+      <dexterity>18</dexterity>
+      <constitution>16</constitution>
+      <intelligence>16</intelligence>
+      <wisdom>18</wisdom>
+      <charisma>18</charisma>
+    </abilities>
+    <savingThrows>
+      <dexterity>8</dexterity>
+      <constitution>7</constitution>
+      <intelligence>7</intelligence>
+      <wisdom>8</wisdom>
+      <charisma>8</charisma>
+    </savingThrows>
+    <damageImmunities>poison</damageImmunities>
+    <conditionImmunities>charmed, poisoned</conditionImmunities>
+    <senses>darkvision 60 ft., passive Perception 14</senses>
+    <languages>Abyssal, Celestial, Common</languages>
+    <challengeRating>12</challengeRating>
+    <cr>12</cr>
+    <actions>
+      <action>
+        <name>Bite</name>
+        <description>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage. The target makes a DC 15 Constitution saving throw  taking 35 (10d6) poison damage on a failure or half damage on a success.</description>
+      </action>
+      <action>
+        <name>Spit Poison</name>
+        <description>Melee Weapon Attack: +8 to hit, range 20/60 ft., one creature. Hit: The target makes a DC 15 Constitution saving throw  taking 35 (10d6) poison damage on a failure or half damage on a success.</description>
+      </action>
+      <action>
+        <name>Command (1st-Level; V)</name>
+        <description>One living creature within 60 feet that the naga can see and that can hear and understand it makes a DC 16 Wisdom saving throw. On a failure  the target uses its next turn to move as far from the naga as possible  avoiding hazardous terrain.</description>
+      </action>
+      <action>
+        <name>Hold Person (2nd-Level; V, Concentration)</name>
+        <description>One humanoid the naga can see within 60 feet makes a DC 16 Wisdom saving throw. On a failure  the target is paralyzed for 1 minute. It repeats the saving throw at the end of each of its turns  ending the effect on a success.</description>
+      </action>
+      <action>
+        <name>Flame Strike (5th-Level; V)</name>
+        <description>A column of divine flame fills a 10-foot-radius  40-foot-high cylinder within 60 feet. Creatures in the area make a DC 16 Dexterity saving throw  taking 14 (4d6) fire damage and 14 (4d6) radiant damage on a failure or half damage on a success.</description>
+      </action>
+      <action>
+        <name>Multiattack</name>
+        <description>The naga casts a spell and uses its vampiric bite.</description>
+      </action>
+      <action>
+        <name>Vampiric Bite</name>
+        <description>The naga attacks with its bite. If it hits and the target fails its saving throw against poison  the naga magically gains temporary hit points equal to the poison damage dealt.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Amphibious</name>
+        <description>The naga can breathe air and water.</description>
+      </ability>
+      <ability>
+        <name>Forbiddance</name>
+        <description>The nagas lair is under the forbiddance spell. Until it is dispelled, creatures in the lair can&apos;t teleport or use planar travel. Fiends and undead that are not the nagas allies take 27 (5d10) radiant damage when they enter or start their turn in the lair.</description>
+      </ability>
+      <ability>
+        <name>Magic Resistance</name>
+        <description>The naga has advantage on saving throws against spells and magical effects.</description>
+      </ability>
+      <ability>
+        <name>Spellcasting</name>
+        <description>The naga is an 11th level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16). The naga has the following cleric spells prepared
+ which it can cast with only vocalized components:
+ Cantrips (at will): mending
+ thaumaturgy
+ 1st-level (4 slots): command
+ cure wounds
+ false life
+ 2nd-level (3 slots): calm emotions
+ hold person
+ locate object
+ 3rd-level (3 slots) clairvoyance
+ create food and water
+ 4th-level (3 slots): divination
+ freedom of movement
+ 5th-level (2 slots): flame strike
+ geas
+ scrying
+ 6th-level (1 slot): forbiddance</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="accursed-spirit-naga-a5e">
+    <name>Accursed Spirit Naga</name>
+    <size>Large</size>
+    <type>Monstrosity</type>
+    <alignment></alignment>
+    <armorClass>16</armorClass>
+    <hitPoints>85</hitPoints>
+    <hitDice>10d10+30</hitDice>
+    <speeds>
+      <walk>40</walk>
+      <swim>40</swim>
+    </speeds>
+    <abilities>
+      <strength>16</strength>
+      <dexterity>16</dexterity>
+      <constitution>16</constitution>
+      <intelligence>16</intelligence>
+      <wisdom>14</wisdom>
+      <charisma>16</charisma>
+    </abilities>
+    <savingThrows>
+      <dexterity>6</dexterity>
+      <constitution>6</constitution>
+      <wisdom>5</wisdom>
+      <charisma>6</charisma>
+    </savingThrows>
+    <damageImmunities>poison</damageImmunities>
+    <conditionImmunities>charmed, poisoned</conditionImmunities>
+    <senses>darkvision 60 ft., passive Perception 12</senses>
+    <languages>Abyssal, Celestial, Common</languages>
+    <challengeRating>8</challengeRating>
+    <cr>8</cr>
+    <actions>
+      <action>
+        <name>Bite</name>
+        <description>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. The target makes a DC 15 Constitution saving throw  taking 28 (8d6) poison damage on a failure or half damage on a success.</description>
+      </action>
+      <action>
+        <name>Hypnotic Pattern (3rd-Level; V, Concentration)</name>
+        <description>A swirling pattern of light appears at a point within 120 feet of the naga. Each creature within 10 feet of the pattern that can see it makes a DC 14 Wisdom saving throw. On a failure  the creature is charmed for 1 minute. While charmed  the creature is incapacitated and its Speed is 0. The effect ends on a creature if it takes damage or if another creature uses an action to shake it out of its daze.</description>
+      </action>
+      <action>
+        <name>Lightning Bolt (3rd-Level; V)</name>
+        <description>A bolt of lightning 5 feet wide and 100 feet long arcs from the naga. Each creature in the area makes a DC 14 Dexterity saving throw  taking 28 (8d6) lightning damage on a failure or half damage on a success.</description>
+      </action>
+      <action>
+        <name>Blight (4th-Level; V, Concentration)</name>
+        <description>The naga targets a living creature or plant within 30 feet  draining moisture and vitality from it. The target makes a DC 14 Constitution saving throw  taking 36 (8d8) necrotic damage on a failure or half damage on a success. Plant creatures have disadvantage on their saving throw and take maximum damage. A nonmagical plant dies.</description>
+      </action>
+      <action>
+        <name>Multiattack</name>
+        <description>The naga casts a spell and uses its vampiric bite.</description>
+      </action>
+      <action>
+        <name>Vampiric Bite</name>
+        <description>The naga attacks with its bite. If it hits and the target fails its saving throw against poison  the naga magically gains temporary hit points equal to the poison damage dealt.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Amphibious</name>
+        <description>The naga can breathe air and water.</description>
+      </ability>
+      <ability>
+        <name>Magic Resistance</name>
+        <description>The naga has advantage on saving throws against spells and magical effects.</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="acid-ant">
+    <name>Acid Ant</name>
+    <size>Small</size>
+    <type>Monstrosity</type>
+    <alignment>unaligned</alignment>
+    <armorClass>13</armorClass>
+    <armorDesc>natural armor</armorDesc>
+    <hitPoints>13</hitPoints>
+    <hitDice>3d6+3</hitDice>
+    <speeds>
+      <walk>30</walk>
+    </speeds>
+    <abilities>
+      <strength>8</strength>
+      <dexterity>13</dexterity>
+      <constitution>12</constitution>
+      <intelligence>1</intelligence>
+      <wisdom>7</wisdom>
+      <charisma>3</charisma>
+    </abilities>
+    <damageImmunities>acid</damageImmunities>
+    <senses>blindsight 60 ft., passive Perception 8</senses>
+    <languages>-</languages>
+    <challengeRating>1/4</challengeRating>
+    <cr>0.25</cr>
+    <actions>
+      <action>
+        <name>Acid Spit</name>
+        <description>Ranged Weapon Attack: +3 to hit, range 20/60 ft., one target. Hit: 5 (2d4) acid damage and the target takes 1 acid damage at the start of its next turn unless the target immediately uses its reaction to wipe off the spit.</description>
+        <attackBonus>3</attackBonus>
+        <damageDice>2d4</damageDice>
+      </action>
+      <action>
+        <name>Bite</name>
+        <description>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage plus 2 (1d4) acid damage.</description>
+        <attackBonus>3</attackBonus>
+        <damageDice>1d4+1</damageDice>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Explosive Death</name>
+        <description>When the ant is reduced to 0 hp, it explodes in a burst of acid. Each creature within 5 feet of the ant must succeed on a DC 11 Dexterity saving throw or take 5 (2d4) acid damage.</description>
+      </ability>
+      <ability>
+        <name>Keen Smell</name>
+        <description>The ant has advantage on Wisdom (Perception) checks that rely on smell.</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="acolyte">
+    <name>Acolyte</name>
+    <size>Medium</size>
+    <type>Humanoid</type>
+    <subtype>any race</subtype>
+    <alignment>any alignment</alignment>
+    <armorClass>10</armorClass>
+    <hitPoints>9</hitPoints>
+    <hitDice>2d8</hitDice>
+    <speeds>
+      <walk>30</walk>
+    </speeds>
+    <abilities>
+      <strength>10</strength>
+      <dexterity>10</dexterity>
+      <constitution>10</constitution>
+      <intelligence>10</intelligence>
+      <wisdom>14</wisdom>
+      <charisma>11</charisma>
+    </abilities>
+    <skills>
+      <medicine>4</medicine>
+      <religion>2</religion>
+    </skills>
+    <senses>passive Perception 12</senses>
+    <languages>any one language (usually Common)</languages>
+    <challengeRating>1/4</challengeRating>
+    <cr>0.25</cr>
+    <description>**Acolytes** are junior members of a clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities.</description>
+    <actions>
+      <action>
+        <name>Club</name>
+        <description>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</description>
+        <attackBonus>2</attackBonus>
+        <damageDice>1d4</damageDice>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Spellcasting</name>
+        <description>The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:
+
+* Cantrips (at will): light, sacred flame, thaumaturgy
+* 1st level (3 slots): bless, cure wounds, sanctuary</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="acolyte-a5e">
+    <name>Acolyte</name>
+    <size>Medium</size>
+    <type>Humanoid</type>
+    <alignment></alignment>
+    <armorClass>10</armorClass>
+    <hitPoints>11</hitPoints>
+    <hitDice>2d8+2</hitDice>
+    <speeds>
+      <walk>30</walk>
+    </speeds>
+    <abilities>
+      <strength>10</strength>
+      <dexterity>10</dexterity>
+      <constitution>12</constitution>
+      <intelligence>10</intelligence>
+      <wisdom>14</wisdom>
+      <charisma>10</charisma>
+    </abilities>
+    <skills>
+      <medicine>4</medicine>
+      <religion>2</religion>
+    </skills>
+    <senses>passive Perception 12</senses>
+    <languages>any one</languages>
+    <challengeRating>1/4</challengeRating>
+    <cr>0.25</cr>
+    <actions>
+      <action>
+        <name>Club</name>
+        <description>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</description>
+      </action>
+      <action>
+        <name>Sacred Flame (Cantrip; V, S)</name>
+        <description>One creature the acolyte can see within 60 feet makes a DC 12 Dexterity saving throw  taking 4 (1d8) radiant damage on a failure. This spell ignores cover.</description>
+      </action>
+      <action>
+        <name>Bless (1st-Level; V, S, M, Concentration)</name>
+        <description>Up to three creatures within 30 feet add a d4 to attack rolls and saving throws for 1 minute.</description>
+      </action>
+      <action>
+        <name>Cure Wounds (1st-Level; V, S)</name>
+        <description>The acolyte touches a willing living creature  restoring 6 (1d8 + 2) hit points to it.</description>
+      </action>
+      <action>
+        <name>An acolyte is a priest in training or an assistant to a more senior member of the clergy</name>
+        <description>While acolytes may be found acting as servants or messengers in major temples  an acolyte may also be the only representative of their faith serving a village or roadside shrine.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Spellcasting</name>
+        <description>The acolyte is a 2nd level spellcaster. Their spellcasting ability is Wisdom (spell save DC 12
+ +4 to hit with spell attacks). They have the following cleric spells prepared:
+ Cantrips (at will): light
+ sacred flame
+ thaumaturgy
+ 1st-level (3 slots): bless
+ cure wounds
+ sanctuary</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="acolyte_bf">
+    <name>Acolyte</name>
+    <size>medium</size>
+    <type>Humanoid</type>
+    <subtype>Any Lineage</subtype>
+    <alignment></alignment>
+    <armorClass>10</armorClass>
+    <hitPoints>15</hitPoints>
+    <hitDice></hitDice>
+    <speeds>
+      <walk>30</walk>
+    </speeds>
+    <abilities>
+      <strength>10</strength>
+      <dexterity>10</dexterity>
+      <constitution>10</constitution>
+      <intelligence>10</intelligence>
+      <wisdom>18</wisdom>
+      <charisma>10</charisma>
+    </abilities>
+    <savingThrows>
+      <strength>0</strength>
+      <dexterity>0</dexterity>
+      <constitution>0</constitution>
+      <intelligence>0</intelligence>
+      <wisdom>4</wisdom>
+      <charisma>0</charisma>
+    </savingThrows>
+    <senses>-</senses>
+    <languages>any one language (usually Common)</languages>
+    <challengeRating>1/4</challengeRating>
+    <cr>0.25</cr>
+    <actions>
+      <action>
+        <name>Mace</name>
+        <description>_Melee Weapon Attack:_ +2 to hit, reach 5 ft., one target. _Hit:_ 3 (1d6) bludgeoning damage plus 3 (1d6) necrotic or radiant damage (the acolyte&apos;s choice).</description>
+      </action>
+      <action>
+        <name>Radiant Bolt</name>
+        <description>_Ranged Spell Attack:_ +6 to hit, range 60 ft., one target. _Hit:_ 6 (1d4+4) radiant damage.</description>
+      </action>
+      <action>
+        <name>Spellcasting</name>
+        <description>The acolyte casts one of the following spells using WIS as the spellcasting ability (spell save DC 13).&lt;br&gt;At will: _light_, _thaumaturgy_&lt;br&gt;3/day each: _bless_, _cure wounds_, _sanctuary_</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Divine Providence</name>
+        <description>Each friendly creature within 20 feet of the acolyte that isn&apos;t a Construct or Undead has advantage on death saves.</description>
+      </ability>
+    </specialAbilities>
+  </monster>
+  <monster slug="adult-amethyst-dragon-a5e">
+    <name>Adult Amethyst Dragon</name>
+    <size>Huge</size>
+    <type>Dragon</type>
+    <alignment></alignment>
+    <armorClass>18</armorClass>
+    <hitPoints>220</hitPoints>
+    <hitDice>21d12+84</hitDice>
+    <speeds>
+      <walk>40</walk>
+      <burrow>30</burrow>
+      <fly>60</fly>
+    </speeds>
+    <abilities>
+      <strength>18</strength>
+      <dexterity>20</dexterity>
+      <constitution>18</constitution>
+      <intelligence>22</intelligence>
+      <wisdom>14</wisdom>
+      <charisma>20</charisma>
+    </abilities>
+    <savingThrows>
+      <constitution>10</constitution>
+      <intelligence>12</intelligence>
+      <wisdom>8</wisdom>
+      <charisma>11</charisma>
+    </savingThrows>
+    <skills>
+      <deception>11</deception>
+      <insight>8</insight>
+      <perception>8</perception>
+      <persuasion>11</persuasion>
+    </skills>
+    <damageResistances>force, psychic</damageResistances>
+    <conditionImmunities>fatigue</conditionImmunities>
+    <senses>darkvision 120 ft., passive Perception 18</senses>
+    <languages>Common, Deep Speech, Draconic, Undercommon, telepathy 120 ft.</languages>
+    <challengeRating>17</challengeRating>
+    <cr>17</cr>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The dragon attacks once with its bite and twice with its claws. In place of its bite  it can use Psionic Wave.</description>
+      </action>
+      <action>
+        <name>Bite</name>
+        <description>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 20 (3d10 + 4) piercing damage plus 4 (1d8) force damage.</description>
+      </action>
+      <action>
+        <name>Claws</name>
+        <description>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) slashing damage.</description>
+      </action>
+      <action>
+        <name>Psionic Wave</name>
+        <description>The dragon psionically emits a wave of crushing mental pressure. Each creature within 20 feet makes a DC 19 Wisdom saving throw  taking 16 (3d10) psychic damage on a failed save or half damage on a success. Creatures charmed by the dragon make this saving throw with disadvantage.</description>
+      </action>
+      <action>
+        <name>Concussive Breath (Recharge 5-6)</name>
+        <description>The dragon psionically unleashes telekinetic energy in a 60-foot cone. Each creature in that area makes a DC 18 Constitution saving throw  taking 60 (11d10) force damage on a failed save or half damage on a success.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Legendary Resistance (3/Day)</name>
+        <description>When the dragon fails a saving throw, it can choose to succeed instead. When it does, its scales dull briefly, and it can&apos;t use telepathy or psionic abilities until the end of its next turn.</description>
+      </ability>
+      <ability>
+        <name>Psionic Powers</name>
+        <description>The dragons psionic abilities are considered both magical and psionic.</description>
+      </ability>
+      <ability>
+        <name>Far Thoughts</name>
+        <description>The dragon is aware of any creature that uses a psionic ability or communicates telepathically within 100 miles of it. As an action, the dragon can psionically observe a creature, object, or location it is familiar with within 100 miles. While observing a subject in this way, the dragon can see, hear, and communicate telepathically, but it is blind and deaf in regard to its physical senses and does not require food or water. The dragon can psionically observe a subject indefinitely and can end this effect and return to its own senses as an action.</description>
+      </ability>
+      <ability>
+        <name>Innate Spellcasting</name>
+        <description>The dragons spellcasting ability is Charisma (save DC 19). It can innately cast the following spells, requiring no material components. 3/day each:calm emotions, charm person, mass suggestion, modify memory</description>
+      </ability>
+    </specialAbilities>
+    <legendaryActions>
+      <action>
+        <name>The dragon can take 3 legendary actions</name>
+        <description>Only one legendary action can be used at a time and only at the end of another creatures turn. It regains spent legendary actions at the start of its turn.</description>
+      </action>
+      <action>
+        <name>Charm</name>
+        <description>The dragon targets a creature within 60 feet, forcing it to make a DC 16 Wisdom saving throw. On a failure, the creature is charmed by the dragon for 24 hours, regarding it as a trusted friend to be heeded and protected. Although it isnt under the dragons control, it takes the dragons requests or actions in the most favorable way it can. At the end of each of the targets turns and at the end of any turn during which the dragon or its companions harmed the target, it repeats the saving throw, ending the effect on a success.</description>
+      </action>
+      <action>
+        <name>Stupefy</name>
+        <description>The dragon targets a creature within 60 feet. If the target is concentrating on a spell, it must make a DC 19 Constitution saving throw or lose concentration.</description>
+      </action>
+      <action>
+        <name>Psionic Wave (Costs 2 Actions)</name>
+        <description>The dragon uses Psionic Wave.</description>
+      </action>
+      <action>
+        <name>Captivating Harmonics (1/Day)</name>
+        <description>Each creature of the dragons choice within 90 feet makes a DC 16 Wisdom saving throw. On a failure, it becomes psionically charmed by the dragon for 1 minute. A creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</description>
+      </action>
+    </legendaryActions>
+  </monster>
+  <monster slug="adult-black-dragon">
+    <name>Adult Black Dragon</name>
+    <size>Huge</size>
+    <type>Dragon</type>
+    <alignment>chaotic evil</alignment>
+    <armorClass>19</armorClass>
+    <armorDesc>natural armor</armorDesc>
+    <hitPoints>195</hitPoints>
+    <hitDice>17d12+85</hitDice>
+    <speeds>
+      <walk>40</walk>
+      <fly>80</fly>
+      <swim>40</swim>
+    </speeds>
+    <abilities>
+      <strength>23</strength>
+      <dexterity>14</dexterity>
+      <constitution>21</constitution>
+      <intelligence>14</intelligence>
+      <wisdom>13</wisdom>
+      <charisma>17</charisma>
+    </abilities>
+    <savingThrows>
+      <dexterity>7</dexterity>
+      <constitution>10</constitution>
+      <wisdom>6</wisdom>
+      <charisma>8</charisma>
+    </savingThrows>
+    <skills>
+      <perception>11</perception>
+      <stealth>7</stealth>
+    </skills>
+    <damageImmunities>acid</damageImmunities>
+    <senses>blindsight 60 ft., darkvision 120 ft., passive Perception 21</senses>
+    <languages>Common, Draconic</languages>
+    <challengeRating>14</challengeRating>
+    <cr>14</cr>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</description>
+      </action>
+      <action>
+        <name>Bite</name>
+        <description>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 4 (1d8) acid damage.</description>
+        <attackBonus>11</attackBonus>
+        <damageDice>2d10+1d8</damageDice>
+      </action>
+      <action>
+        <name>Claw</name>
+        <description>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.</description>
+        <attackBonus>11</attackBonus>
+        <damageDice>2d6</damageDice>
+      </action>
+      <action>
+        <name>Tail</name>
+        <description>Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage.</description>
+        <attackBonus>11</attackBonus>
+        <damageDice>2d8</damageDice>
+      </action>
+      <action>
+        <name>Frightful Presence</name>
+        <description>Each creature of the dragon&apos;s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature&apos;s saving throw is successful or the effect ends for it, the creature is immune to the dragon&apos;s Frightful Presence for the next 24 hours.</description>
+      </action>
+      <action>
+        <name>Acid Breath (Recharge 5-6)</name>
+        <description>The dragon exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one.</description>
+        <damageDice>12d8</damageDice>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Amphibious</name>
+        <description>The dragon can breathe air and water.</description>
+      </ability>
+      <ability>
+        <name>Legendary Resistance (3/Day)</name>
+        <description>If the dragon fails a saving throw, it can choose to succeed instead.</description>
+      </ability>
+    </specialAbilities>
+    <legendaryActions>
+      <action>
+        <name>Detect</name>
+        <description>The dragon makes a Wisdom (Perception) check.</description>
+      </action>
+      <action>
+        <name>Tail Attack</name>
+        <description>The dragon makes a tail attack.</description>
+      </action>
+      <action>
+        <name>Wing Attack (Costs 2 Actions)</name>
+        <description>The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</description>
+      </action>
+    </legendaryActions>
+  </monster>
+  <monster slug="adult-black-dragon-a5e">
+    <name>Adult Black Dragon</name>
+    <size>Huge</size>
+    <type>Dragon</type>
+    <alignment></alignment>
+    <armorClass>19</armorClass>
+    <hitPoints>253</hitPoints>
+    <hitDice>22d12+110</hitDice>
+    <speeds>
+      <walk>40</walk>
+      <fly>80</fly>
+      <swim>40</swim>
+    </speeds>
+    <abilities>
+      <strength>22</strength>
+      <dexterity>14</dexterity>
+      <constitution>20</constitution>
+      <intelligence>14</intelligence>
+      <wisdom>12</wisdom>
+      <charisma>16</charisma>
+    </abilities>
+    <savingThrows>
+      <dexterity>8</dexterity>
+      <constitution>11</constitution>
+      <wisdom>7</wisdom>
+      <charisma>9</charisma>
+    </savingThrows>
+    <skills>
+      <history>8</history>
+      <perception>7</perception>
+      <stealth>8</stealth>
+    </skills>
+    <damageImmunities>acid</damageImmunities>
+    <senses>blindsight 60 ft., darkvision 120 ft., passive Perception 20</senses>
+    <languages>Common, Draconic</languages>
+    <challengeRating>17</challengeRating>
+    <cr>17</cr>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The dragon attacks once with its bite and twice with its claws. In place of its bite attack  it can use Acid Spit.</description>
+      </action>
+      <action>
+        <name>Bite</name>
+        <description>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage plus 4 (1d8) acid damage. Instead of dealing piercing damage  the dragon can grapple the target (escape DC 20)  and a Large or smaller creature grappled in this way is restrained. While grappling a creature  the dragon can&apos;t bite or use Acid Spit against another target.</description>
+      </action>
+      <action>
+        <name>Claw</name>
+        <description>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) slashing damage.</description>
+      </action>
+      <action>
+        <name>Tail</name>
+        <description>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage  and the dragon pushes the target 10 feet away.</description>
+      </action>
+      <action>
+        <name>Acid Spit</name>
+        <description>The dragon targets a creature within 60 feet  forcing it to make a DC 19 Dexterity saving throw. The creature takes 22 (4d10) acid damage on a failure or half damage on a success. A creature that fails the save also takes 5 (1d10) ongoing acid damage. A creature can use an action to end the ongoing damage.</description>
+      </action>
+      <action>
+        <name>Acid Breath (Recharge 5-6)</name>
+        <description>The dragon exhales sizzling acid in a 60-foot-long  5-foot-wide line. Each creature in that area makes a DC 19 Dexterity saving throw  taking 63 (14d8) acid damage on a failed save or half damage on a success. A creature that fails the save is blinded until the end of its next turn.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Ambusher</name>
+        <description>When submerged in water, the dragon has advantage on Stealth checks. If the dragon hits a creature that can&apos;t see it with its bite, it can deal piercing damage and grapple the target simultaneously.</description>
+      </ability>
+      <ability>
+        <name>Amphibious</name>
+        <description>The dragon can breathe air and water.</description>
+      </ability>
+      <ability>
+        <name>Legendary Resistance (3/Day)</name>
+        <description>When the dragon fails a saving throw, it can choose to succeed instead. When it does, it sheds some of its scales, which turn to mud. If it has no more uses of this ability, its Armor Class is reduced to 17 until it finishes a long rest.</description>
+      </ability>
+      <ability>
+        <name>Ruthless (1/Round)</name>
+        <description>After scoring a critical hit on its turn, the dragon can immediately make one claw attack.</description>
+      </ability>
+      <ability>
+        <name>Innate Spellcasting</name>
+        <description>The dragons spellcasting ability is Charisma (save DC 17). It can innately cast the following spells, requiring no material components. 3/day each:fog cloud, pass without trace, legend lore, speak with dead</description>
+      </ability>
+    </specialAbilities>
+    <legendaryActions>
+      <action>
+        <name>The dragon can take 3 legendary actions</name>
+        <description>Only one legendary action can be used at a time and only at the end of another creatures turn. It regains spent legendary actions at the start of its turn.</description>
+      </action>
+      <action>
+        <name>Darkness</name>
+        <description>The dragon creates a 20-foot-radius sphere of magical darkness originating from a point it can see within 120 feet. Darkvision can&apos;t penetrate this darkness. The darkness lasts for 1 minute or until the dragon uses this action again.</description>
+      </action>
+      <action>
+        <name>Roar</name>
+        <description>Each creature of the dragons choice within 120 feet that can hear it makes a DC 17 Charisma saving throw. On a failure, it is frightened for 1 minute. A creature repeats the saving throw at the end of its turns, ending the effect on itself on a success. When it succeeds on a saving throw or the effect ends for it, it is immune to Roar for 24 hours.</description>
+      </action>
+      <action>
+        <name>Wing Attack</name>
+        <description>The dragon beats its wings. Each creature within 15 feet makes a DC 20 Dexterity saving throw. On a failure, it is pushed 10 feet away and knocked prone. The dragon can then fly up to half its fly speed.</description>
+      </action>
+    </legendaryActions>
+  </monster>
+  <monster slug="adult_black_dragon_bf">
+    <name>Adult Black Dragon</name>
+    <size>huge</size>
+    <type>Dragon</type>
+    <alignment></alignment>
+    <armorClass>19</armorClass>
+    <armorDesc>natural armor</armorDesc>
+    <hitPoints>238</hitPoints>
+    <hitDice></hitDice>
+    <speeds>
+      <walk>40</walk>
+      <fly>80</fly>
+      <swim>40</swim>
+    </speeds>
+    <abilities>
+      <strength>24</strength>
+      <dexterity>24</dexterity>
+      <constitution>30</constitution>
+      <intelligence>14</intelligence>
+      <wisdom>24</wisdom>
+      <charisma>26</charisma>
+    </abilities>
+    <savingThrows>
+      <strength>7</strength>
+      <dexterity>7</dexterity>
+      <constitution>10</constitution>
+      <intelligence>2</intelligence>
+      <wisdom>7</wisdom>
+      <charisma>8</charisma>
+    </savingThrows>
+    <damageImmunities>acid,poisoned</damageImmunities>
+    <senses>darkvision 120 ft., keensense 60 ft.</senses>
+    <languages>Common,Draconic</languages>
+    <challengeRating>14</challengeRating>
+    <cr>14</cr>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The dragon uses its Frightful Presence. It then makes one Bite attack and two Claw attacks.</description>
+      </action>
+      <action>
+        <name>Bite</name>
+        <description>_Melee Weapon Attack:_ +12 to hit, reach 10 ft., one target. _Hit:_ 18 (2d10+7) piercing damage plus 4 (1d8) acid damage.</description>
+      </action>
+      <action>
+        <name>Claw</name>
+        <description>_Melee Weapon Attack:_ +12 to hit, reach 5 ft., one target. _Hit:_ 14 (2d6+7) slashing damage.</description>
+      </action>
+      <action>
+        <name>Tail</name>
+        <description>_Melee Weapon Attack:_ +12 to hit, reach 15 ft., one target. _Hit:_ 16 (2d8+7) bludgeoning damage.</description>
+      </action>
+      <action>
+        <name>Frightful Presence</name>
+        <description>Each creature of the dragon&apos;s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 WIS save or be frightened for 1 minute. A creature can repeat the save at the end of each of its turns, ending the effect on itself on a success. If a creature&apos;s save is successful or the effect ends for it, the creature is immune to the dragon&apos;s Frightful Presence for the next 24 hours.</description>
+      </action>
+      <action>
+        <name>Acid Breath (Recharge 5-6)</name>
+        <description>The dragon exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 DEX save, taking 49 (11d8) acid damage on a failed save, or half as much damage on a successful one.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Acidic Vapors</name>
+        <description>After the black dragon uses its Acid Breath, acid clings to its mouth, throat, and nostrils for a time, evaporating as the dragon breathes. While the dragon&apos;s Acid Breath is unavailable, acidic vapors surround it, and each creature that starts its turn within 20 feet of the dragon must succeed on a DC 18 CON save or be poisoned until the start of its next turn.</description>
+      </ability>
+      <ability>
+        <name>Amphibious</name>
+        <description>The dragon can breathe air and water.</description>
+      </ability>
+      <ability>
+        <name>Legendary Resistance (3/Day)</name>
+        <description>If the dragon fails a save, it can choose to succeed instead.</description>
+      </ability>
+    </specialAbilities>
+    <legendaryActions>
+      <action>
+        <name>Detect</name>
+        <description>The dragon automatically detects every creature and trap within 30 feet of it, pinpointing the current location of each.</description>
+      </action>
+      <action>
+        <name>Tail Attack</name>
+        <description>The dragon makes a Tail attack.</description>
+      </action>
+      <action>
+        <name>Elemental Roar (Costs 2 Actions)</name>
+        <description>The dragon roars at up to two creatures of its choice within 120 feet of it. Each target must succeed on a DC 16 CHA save or be vulnerable to acid damage until the end of its next turn. A target resistant to acid damage isn&apos;t resistant to it for the duration. A target immune to acid damage is still immune to it, even if the target fails the save.</description>
+      </action>
+      <action>
+        <name>Wing Attack (Costs 2 Actions)</name>
+        <description>The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 20 DEX save or take 14 (2d6+7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed without provoking opportunity attacks.</description>
+      </action>
+    </legendaryActions>
+  </monster>
+  <monster slug="adult-black-dragon-lich-a5e">
+    <name>Adult Black Dragon Lich</name>
+    <size>Huge</size>
+    <type>Undead</type>
+    <alignment></alignment>
+    <armorClass>19</armorClass>
+    <hitPoints>253</hitPoints>
+    <hitDice>22d12+110</hitDice>
+    <speeds>
+      <walk>40</walk>
+      <fly>80</fly>
+      <swim>40</swim>
+    </speeds>
+    <abilities>
+      <strength>22</strength>
+      <dexterity>14</dexterity>
+      <constitution>20</constitution>
+      <intelligence>14</intelligence>
+      <wisdom>12</wisdom>
+      <charisma>16</charisma>
+    </abilities>
+    <savingThrows>
+      <dexterity>8</dexterity>
+      <constitution>11</constitution>
+      <wisdom>7</wisdom>
+      <charisma>9</charisma>
+    </savingThrows>
+    <skills>
+      <history>8</history>
+      <perception>7</perception>
+      <stealth>8</stealth>
+    </skills>
+    <damageImmunities>acid, necrotic, poison</damageImmunities>
+    <conditionImmunities>charmed, fatigued, frightened, paralyzed, poisoned</conditionImmunities>
+    <senses>blindsight 60 ft., darkvision 120 ft., passive Perception 20</senses>
+    <languages>Common, Draconic</languages>
+    <challengeRating>17</challengeRating>
+    <cr>17</cr>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The dragon attacks once with its bite and twice with its claws. In place of its bite attack  it can use Acid Spit.</description>
+      </action>
+      <action>
+        <name>Bite</name>
+        <description>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage plus 4 (1d8) acid damage. Instead of dealing piercing damage  the dragon can grapple the target (escape DC 20)  and a Large or smaller creature grappled in this way is restrained. While grappling a creature  the dragon can&apos;t bite or use Acid Spit against another target.</description>
+      </action>
+      <action>
+        <name>Claw</name>
+        <description>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) slashing damage.</description>
+      </action>
+      <action>
+        <name>Tail</name>
+        <description>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage  and the dragon pushes the target 10 feet away.</description>
+      </action>
+      <action>
+        <name>Acid Spit</name>
+        <description>The dragon targets a creature within 60 feet  forcing it to make a DC 19 Dexterity saving throw. The creature takes 22 (4d10) acid damage on a failure or half damage on a success. A creature that fails the save also takes 5 (1d10) ongoing acid damage. A creature can use an action to end the ongoing damage.</description>
+      </action>
+      <action>
+        <name>Acid Breath (Recharge 5-6)</name>
+        <description>The dragon exhales sizzling acid or necrotic energy in a 60-foot-long  5-foot-wide line. Each creature in that area makes a DC 19 Dexterity saving throw  taking 31 (7d8) acid damage and 31 (7d8) necrotic damage on a failed save or half damage on a success. A creature that fails the save is blinded until the end of its next turn.</description>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Ambusher</name>
+        <description>When submerged in water, the dragon has advantage on Stealth checks. If the dragon hits a creature that can&apos;t see it with its bite, it can deal piercing damage and grapple the target simultaneously.</description>
+      </ability>
+      <ability>
+        <name>Innate Spellcasting</name>
+        <description>The dragons spellcasting ability is Charisma (save DC 17). It can innately cast the following spells, requiring no material components. 3/day each: animate dead, fog cloud, legend lore, pass without trace, speak with dead</description>
+      </ability>
+    </specialAbilities>
+    <legendaryActions>
+      <action>
+        <name>The dragon can take 3 legendary actions</name>
+        <description>Only one legendary action can be used at a time and only at the end of another creatures turn. It regains spent legendary actions at the start of its turn.</description>
+      </action>
+      <action>
+        <name>Darkness</name>
+        <description>The dragon creates a 20-foot-radius sphere of magical darkness originating from a point it can see within 120 feet. Darkvision can&apos;t penetrate this darkness. The darkness lasts for 1 minute or until the dragon uses this action again.</description>
+      </action>
+      <action>
+        <name>Roar</name>
+        <description>Each creature of the dragons choice within 120 feet that can hear it makes a DC 17 Charisma saving throw. On a failure, it is frightened for 1 minute. A creature repeats the saving throw at the end of its turns, ending the effect on itself on a success. When it succeeds on a saving throw or the effect ends for it, it is immune to Roar for 24 hours.</description>
+      </action>
+      <action>
+        <name>Wing Attack</name>
+        <description>The dragon beats its wings. Each creature within 15 feet makes a DC 20 Dexterity saving throw. On a failure, it is pushed 10 feet away and knocked prone. The dragon can then fly up to half its fly speed.</description>
+      </action>
+    </legendaryActions>
+  </monster>
+  <monster slug="adult-blue-dragon">
+    <name>Adult Blue Dragon</name>
+    <size>Huge</size>
+    <type>Dragon</type>
+    <alignment>lawful evil</alignment>
+    <armorClass>19</armorClass>
+    <armorDesc>natural armor</armorDesc>
+    <hitPoints>225</hitPoints>
+    <hitDice>18d12+108</hitDice>
+    <speeds>
+      <walk>40</walk>
+      <burrow>30</burrow>
+      <fly>80</fly>
+    </speeds>
+    <abilities>
+      <strength>25</strength>
+      <dexterity>10</dexterity>
+      <constitution>23</constitution>
+      <intelligence>16</intelligence>
+      <wisdom>15</wisdom>
+      <charisma>19</charisma>
+    </abilities>
+    <savingThrows>
+      <dexterity>5</dexterity>
+      <constitution>11</constitution>
+      <wisdom>7</wisdom>
+      <charisma>9</charisma>
+    </savingThrows>
+    <skills>
+      <perception>12</perception>
+      <stealth>5</stealth>
+    </skills>
+    <damageImmunities>lightning</damageImmunities>
+    <senses>blindsight 60 ft., darkvision 120 ft., passive Perception 22</senses>
+    <languages>Common, Draconic</languages>
+    <challengeRating>16</challengeRating>
+    <cr>16</cr>
+    <actions>
+      <action>
+        <name>Multiattack</name>
+        <description>The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</description>
+      </action>
+      <action>
+        <name>Bite</name>
+        <description>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 5 (1d10) lightning damage.</description>
+        <attackBonus>12</attackBonus>
+        <damageDice>2d10+1d10</damageDice>
+      </action>
+      <action>
+        <name>Claw</name>
+        <description>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage.</description>
+        <attackBonus>12</attackBonus>
+        <damageDice>2d6</damageDice>
+      </action>
+      <action>
+        <name>Tail</name>
+        <description>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage.</description>
+        <attackBonus>12</attackBonus>
+        <damageDice>2d8</damageDice>
+      </action>
+      <action>
+        <name>Frightful Presence</name>
+        <description>Each creature of the dragon&apos;s choice that is within 120 ft. of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature&apos;s saving throw is successful or the effect ends for it, the creature is immune to the dragon&apos;s Frightful Presence for the next 24 hours.</description>
+      </action>
+      <action>
+        <name>Lightning Breath (Recharge 5-6)</name>
+        <description>The dragon exhales lightning in a 90-foot line that is 5 ft. wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.</description>
+        <damageDice>12d10</damageDice>
+      </action>
+    </actions>
+    <specialAbilities>
+      <ability>
+        <name>Legendary Resistance (3/Day)</name>
+        <description>If the dragon fails a saving throw, it can choose to succeed instead.</description>
+      </ability>
+    </specialAbilities>
+    <legendaryActions>
+      <action>
+        <name>Detect</name>
+        <description>The dragon makes a Wisdom (Perception) check.</description>
+      </action>
+      <action>
+        <name>Tail Attack</name>
+        <description>The dragon makes a tail attack.</description>
+      </action>
+      <action>
+        <name>Wing Attack (Costs 2 Actions)</name>
+        <description>The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</description>
+      </action>
+    </legendaryActions>
+  </monster>
+</monsterList>

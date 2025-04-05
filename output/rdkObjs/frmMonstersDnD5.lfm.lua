@@ -3413,61 +3413,30 @@ local function constructNew_frmMonstersDnD5()
 
     obj.tab2 = GUI.fromHandle(_obj_newObject("tab"));
     obj.tab2:setParent(obj.pgcPrincipal);
-    obj.tab2:setTitle("Pesquisar por Monstro");
+    obj.tab2:setTitle("Filtro de Monstro");
     obj.tab2:setName("tab2");
 
-    obj.rectangle2 = GUI.fromHandle(_obj_newObject("rectangle"));
-    obj.rectangle2:setParent(obj.tab2);
-    obj.rectangle2:setName("rectangle2");
-    obj.rectangle2:setAlign("client");
-    obj.rectangle2:setColor("#40000000");
-    obj.rectangle2:setXradius(10);
-    obj.rectangle2:setYradius(10);
+    obj.frmMonster = GUI.fromHandle(_obj_newObject("form"));
+    obj.frmMonster:setParent(obj.tab2);
+    obj.frmMonster:setName("frmMonster");
+    obj.frmMonster:setAlign("client");
 
-    obj.scrollBox2 = GUI.fromHandle(_obj_newObject("scrollBox"));
-    obj.scrollBox2:setParent(obj.rectangle2);
-    obj.scrollBox2:setAlign("client");
-    obj.scrollBox2:setName("scrollBox2");
 
-    obj.fraPesquisaLayout = GUI.fromHandle(_obj_newObject("flowLayout"));
-    obj.fraPesquisaLayout:setParent(obj.scrollBox2);
-    obj.fraPesquisaLayout:setAlign("top");
-    obj.fraPesquisaLayout:setHeight(500);
-    obj.fraPesquisaLayout:setMargins({left=10, right=10, top=10});
-    obj.fraPesquisaLayout:setAutoHeight(true);
-    obj.fraPesquisaLayout:setHorzAlign("center");
-    obj.fraPesquisaLayout:setLineSpacing(2);
-    obj.fraPesquisaLayout:setName("fraPesquisaLayout");
-    obj.fraPesquisaLayout:setStepSizes({310, 420, 640, 760, 900, 1150, 1200});
-    obj.fraPesquisaLayout:setMinScaledWidth(300);
-    obj.fraPesquisaLayout:setVertAlign("leading");
+  
 
-    obj.layout43 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout43:setParent(obj.fraPesquisaLayout);
-    obj.layout43:setName("layout43");
 
-    obj.label15 = GUI.fromHandle(_obj_newObject("label"));
-    obj.label15:setParent(obj.layout43);
-    obj.label15:setLeft(000);
-    obj.label15:setTop(025);
-    obj.label15:setHeight(20);
-    obj.label15:setWidth(60);
-    obj.label15:setText("Category");
-    obj.label15:setAutoSize(true);
-    obj.label15:setName("label15");
-    obj.label15:setFontColor("white");
+    obj.popDescrition = GUI.fromHandle(_obj_newObject("popup"));
+    obj.popDescrition:setParent(obj.frmMonster);
+    obj.popDescrition:setName("popDescrition");
+    obj.popDescrition:setWidth(200);
+    obj.popDescrition:setHeight(200);
+    obj.popDescrition:setBackOpacity(0.4);
 
-    obj.comboBox1 = GUI.fromHandle(_obj_newObject("comboBox"));
-    obj.comboBox1:setParent(obj.layout43);
-    obj.comboBox1:setLeft(065);
-    obj.comboBox1:setTop(025);
-    obj.comboBox1:setHeight(20);
-    obj.comboBox1:setWidth(240);
-    obj.comboBox1:setField("baseCATEGORY");
-    obj.comboBox1:setHorzTextAlign("center");
-    obj.comboBox1:setItems({'Abnormal', 'Aerial', 'Amorph', 'Aquan', 'Arcana', 'Beast', 'Construct', 'Dragon', 'Fiend', 'Humanoid', 'Insect', 'Lizard', 'Plant', 'Undead'});
-    obj.comboBox1:setValues({'Abnormal', 'Aerial', 'Amorph', 'Aquan', 'Arcana', 'Beast', 'Construct', 'Dragon', 'Fiend', 'Humanoid', 'Insect', 'Lizard', 'Plant', 'Undead'});
-    obj.comboBox1:setName("comboBox1");
+    obj.textEditor1 = GUI.fromHandle(_obj_newObject("textEditor"));
+    obj.textEditor1:setParent(obj.popDescrition);
+    obj.textEditor1:setAlign("client");
+    obj.textEditor1:setField("description");
+    obj.textEditor1:setName("textEditor1");
 
     obj._e_event0 = obj.dataLink1:addEventListener("onChange",
         function (field, oldValue, newValue)
@@ -7843,7 +7812,6 @@ local function constructNew_frmMonstersDnD5()
         if self.flowLayout9 ~= nil then self.flowLayout9:destroy(); self.flowLayout9 = nil; end;
         if self.flowPart7 ~= nil then self.flowPart7:destroy(); self.flowPart7 = nil; end;
         if self.modcarismastr ~= nil then self.modcarismastr:destroy(); self.modcarismastr = nil; end;
-        if self.layout43 ~= nil then self.layout43:destroy(); self.layout43 = nil; end;
         if self.horzLine17 ~= nil then self.horzLine17:destroy(); self.horzLine17 = nil; end;
         if self.dataLink69 ~= nil then self.dataLink69:destroy(); self.dataLink69 = nil; end;
         if self.flowLayout10 ~= nil then self.flowLayout10:destroy(); self.flowLayout10 = nil; end;
@@ -7884,7 +7852,6 @@ local function constructNew_frmMonstersDnD5()
         if self.flpSkillFlowPart23 ~= nil then self.flpSkillFlowPart23:destroy(); self.flpSkillFlowPart23 = nil; end;
         if self.frame2 ~= nil then self.frame2:destroy(); self.frame2 = nil; end;
         if self.rectangle1 ~= nil then self.rectangle1:destroy(); self.rectangle1 = nil; end;
-        if self.label15 ~= nil then self.label15:destroy(); self.label15 = nil; end;
         if self.horzLine3 ~= nil then self.horzLine3:destroy(); self.horzLine3 = nil; end;
         if self.dataLink20 ~= nil then self.dataLink20:destroy(); self.dataLink20 = nil; end;
         if self.edit3 ~= nil then self.edit3:destroy(); self.edit3 = nil; end;
@@ -7980,7 +7947,6 @@ local function constructNew_frmMonstersDnD5()
         if self.flpSkillFlowPart19button ~= nil then self.flpSkillFlowPart19button:destroy(); self.flpSkillFlowPart19button = nil; end;
         if self.fraFrenteLayout ~= nil then self.fraFrenteLayout:destroy(); self.fraFrenteLayout = nil; end;
         if self.flowPart13 ~= nil then self.flowPart13:destroy(); self.flowPart13 = nil; end;
-        if self.rectangle2 ~= nil then self.rectangle2:destroy(); self.rectangle2 = nil; end;
         if self.layout19 ~= nil then self.layout19:destroy(); self.layout19 = nil; end;
         if self.linUpperGridCampo5 ~= nil then self.linUpperGridCampo5:destroy(); self.linUpperGridCampo5 = nil; end;
         if self.dataLink40 ~= nil then self.dataLink40:destroy(); self.dataLink40 = nil; end;
@@ -8043,7 +8009,6 @@ local function constructNew_frmMonstersDnD5()
         if self.dataLink7 ~= nil then self.dataLink7:destroy(); self.dataLink7 = nil; end;
         if self.flpSkillFlowPart11 ~= nil then self.flpSkillFlowPart11:destroy(); self.flpSkillFlowPart11 = nil; end;
         if self.layout27 ~= nil then self.layout27:destroy(); self.layout27 = nil; end;
-        if self.fraPesquisaLayout ~= nil then self.fraPesquisaLayout:destroy(); self.fraPesquisaLayout = nil; end;
         if self.tab2 ~= nil then self.tab2:destroy(); self.tab2 = nil; end;
         if self.edit5 ~= nil then self.edit5:destroy(); self.edit5 = nil; end;
         if self.image15 ~= nil then self.image15:destroy(); self.image15 = nil; end;
@@ -8066,6 +8031,7 @@ local function constructNew_frmMonstersDnD5()
         if self.button1 ~= nil then self.button1:destroy(); self.button1 = nil; end;
         if self.image24 ~= nil then self.image24:destroy(); self.image24 = nil; end;
         if self.layout13 ~= nil then self.layout13:destroy(); self.layout13 = nil; end;
+        if self.popDescrition ~= nil then self.popDescrition:destroy(); self.popDescrition = nil; end;
         if self.linUpperGridCampo3 ~= nil then self.linUpperGridCampo3:destroy(); self.linUpperGridCampo3 = nil; end;
         if self.dataLink46 ~= nil then self.dataLink46:destroy(); self.dataLink46 = nil; end;
         if self.dataLink58 ~= nil then self.dataLink58:destroy(); self.dataLink58 = nil; end;
@@ -8093,7 +8059,6 @@ local function constructNew_frmMonstersDnD5()
         if self.dataLink61 ~= nil then self.dataLink61:destroy(); self.dataLink61 = nil; end;
         if self.dataLink71 ~= nil then self.dataLink71:destroy(); self.dataLink71 = nil; end;
         if self.edit12 ~= nil then self.edit12:destroy(); self.edit12 = nil; end;
-        if self.comboBox1 ~= nil then self.comboBox1:destroy(); self.comboBox1 = nil; end;
         if self.dataLink31 ~= nil then self.dataLink31:destroy(); self.dataLink31 = nil; end;
         if self.labUpperGridCampo1 ~= nil then self.labUpperGridCampo1:destroy(); self.labUpperGridCampo1 = nil; end;
         if self.flpSkillFlowPart18 ~= nil then self.flpSkillFlowPart18:destroy(); self.flpSkillFlowPart18 = nil; end;
@@ -8177,17 +8142,18 @@ local function constructNew_frmMonstersDnD5()
         if self.horzLine5 ~= nil then self.horzLine5:destroy(); self.horzLine5 = nil; end;
         if self.dataLink26 ~= nil then self.dataLink26:destroy(); self.dataLink26 = nil; end;
         if self.label14 ~= nil then self.label14:destroy(); self.label14 = nil; end;
+        if self.textEditor1 ~= nil then self.textEditor1:destroy(); self.textEditor1 = nil; end;
         if self.layout33 ~= nil then self.layout33:destroy(); self.layout33 = nil; end;
         if self.flpSkillFlowPart12 ~= nil then self.flpSkillFlowPart12:destroy(); self.flpSkillFlowPart12 = nil; end;
         if self.flpSkillFlowPart20 ~= nil then self.flpSkillFlowPart20:destroy(); self.flpSkillFlowPart20 = nil; end;
         if self.frame1 ~= nil then self.frame1:destroy(); self.frame1 = nil; end;
+        if self.frmMonster ~= nil then self.frmMonster:destroy(); self.frmMonster = nil; end;
         if self.horzLine2 ~= nil then self.horzLine2:destroy(); self.horzLine2 = nil; end;
         if self.dataLink21 ~= nil then self.dataLink21:destroy(); self.dataLink21 = nil; end;
         if self.image10 ~= nil then self.image10:destroy(); self.image10 = nil; end;
         if self.dataLink1 ~= nil then self.dataLink1:destroy(); self.dataLink1 = nil; end;
         if self.layout21 ~= nil then self.layout21:destroy(); self.layout21 = nil; end;
         if self.flpSkillFlowPart17 ~= nil then self.flpSkillFlowPart17:destroy(); self.flpSkillFlowPart17 = nil; end;
-        if self.scrollBox2 ~= nil then self.scrollBox2:destroy(); self.scrollBox2 = nil; end;
         if self.edtUpperGridCampo2 ~= nil then self.edtUpperGridCampo2:destroy(); self.edtUpperGridCampo2 = nil; end;
         if self.flowPart11 ~= nil then self.flowPart11:destroy(); self.flowPart11 = nil; end;
         if self.edit7 ~= nil then self.edit7:destroy(); self.edit7 = nil; end;

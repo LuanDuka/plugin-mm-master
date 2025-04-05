@@ -11,8 +11,8 @@ title="Ficha de Monstros D&amp;D do Marcão" name="frmMonstersDnD5" theme="dark"
     <import file="frente.xml" />
   </tab>
 
-      <tab title="Pesquisar por Monstro">
-    <import file="searchMonsterDnD5.xml"/>
+      <tab title="Filtro de Monstro">
+    <import file="MonsterFilter.xml"/>
   </tab>
 </tabControl>
 </form>
