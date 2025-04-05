@@ -3416,17 +3416,17 @@ local function constructNew_frmMonstersDnD5()
     obj.tab2:setTitle("Filtro de Monstro");
     obj.tab2:setName("tab2");
 
-    obj.frmMonster = GUI.fromHandle(_obj_newObject("form"));
-    obj.frmMonster:setParent(obj.tab2);
-    obj.frmMonster:setName("frmMonster");
-    obj.frmMonster:setAlign("client");
+    obj.frmMonsters = GUI.fromHandle(_obj_newObject("form"));
+    obj.frmMonsters:setParent(obj.tab2);
+    obj.frmMonsters:setName("frmMonsters");
+    obj.frmMonsters:setAlign("client");
 
 
   
 
 
     obj.popDescrition = GUI.fromHandle(_obj_newObject("popup"));
-    obj.popDescrition:setParent(obj.frmMonster);
+    obj.popDescrition:setParent(obj.frmMonsters);
     obj.popDescrition:setName("popDescrition");
     obj.popDescrition:setWidth(200);
     obj.popDescrition:setHeight(200);
@@ -3439,7 +3439,7 @@ local function constructNew_frmMonstersDnD5()
     obj.textEditor1:setName("textEditor1");
 
     obj.layout43 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout43:setParent(obj.frmMonster);
+    obj.layout43:setParent(obj.frmMonsters);
     obj.layout43:setAlign("bottom");
     obj.layout43:setHeight(25);
     obj.layout43:setName("layout43");
@@ -3453,7 +3453,7 @@ local function constructNew_frmMonstersDnD5()
     obj.button2:setName("button2");
 
     obj.scrollBox2 = GUI.fromHandle(_obj_newObject("scrollBox"));
-    obj.scrollBox2:setParent(obj.frmMonster);
+    obj.scrollBox2:setParent(obj.frmMonsters);
     obj.scrollBox2:setAlign("client");
     obj.scrollBox2:setName("scrollBox2");
 
@@ -7564,8 +7564,32 @@ local function constructNew_frmMonstersDnD5()
                       index = index +1;
             					toolSheet.filteredMonsters[index] = monster;
             					::nextmonster::
-            
                     end
+            
+                    --write(index);
+            
+                    -- Save quantity filted monsters and pages
+            				toolSheet.numMonsters = index;
+            				toolSheet.maxMonsterPages = math.ceil(index/50);	
+            
+                    -- Delete all monsters from actual list
+            		        local toDelete = NDB.getChildNodes(toolSheet.monsterList); 
+            		        for i=1, #toDelete, 1 do
+            		            NDB.deleteNode(toDelete[i]);
+            		        end;
+            
+            		        -- Feel new list with first 50 monsters
+            		        local limit = math.min(index, 50);
+            
+            				for i=1, limit, 1 do
+            					local monster = self.monsterList:append();
+            
+                      if toolSheet.filteredMonsters[i].description then 
+            						monster.description = toolSheet.filteredSpells[i].description;
+            					end;
+            
+            
+                    end;
         end);
 
     function obj:_releaseEvents()
@@ -8101,6 +8125,7 @@ local function constructNew_frmMonstersDnD5()
         if self.flpSkillFlowPart1button ~= nil then self.flpSkillFlowPart1button:destroy(); self.flpSkillFlowPart1button = nil; end;
         if self.layout22 ~= nil then self.layout22:destroy(); self.layout22 = nil; end;
         if self.flowPart12 ~= nil then self.flowPart12:destroy(); self.flowPart12 = nil; end;
+        if self.frmMonsters ~= nil then self.frmMonsters:destroy(); self.frmMonsters = nil; end;
         if self.layout16 ~= nil then self.layout16:destroy(); self.layout16 = nil; end;
         if self.linUpperGridCampo6 ~= nil then self.linUpperGridCampo6:destroy(); self.linUpperGridCampo6 = nil; end;
         if self.dataLink43 ~= nil then self.dataLink43:destroy(); self.dataLink43 = nil; end;
@@ -8229,7 +8254,6 @@ local function constructNew_frmMonstersDnD5()
         if self.flpSkillFlowPart12 ~= nil then self.flpSkillFlowPart12:destroy(); self.flpSkillFlowPart12 = nil; end;
         if self.flpSkillFlowPart20 ~= nil then self.flpSkillFlowPart20:destroy(); self.flpSkillFlowPart20 = nil; end;
         if self.frame1 ~= nil then self.frame1:destroy(); self.frame1 = nil; end;
-        if self.frmMonster ~= nil then self.frmMonster:destroy(); self.frmMonster = nil; end;
         if self.horzLine2 ~= nil then self.horzLine2:destroy(); self.horzLine2 = nil; end;
         if self.dataLink21 ~= nil then self.dataLink21:destroy(); self.dataLink21 = nil; end;
         if self.image10 ~= nil then self.image10:destroy(); self.image10 = nil; end;
