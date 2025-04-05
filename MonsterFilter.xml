@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form name="frmMonsters" align="client" class="fundo">
 	<script>
+        <![CDATA[ 
+        -- lists
+        local size = {"Tiny", "Small", "Medium", "Large", "Huge", "Gargantuan"}
+
+        local types = {"Aberration", "Beast", "Celestial", "Construct", "Dragon", "Elemental", "Fey", "Fiend", "Giant", "Humanoid", "Monstrosity", "Ooze", "Plant", "Undead", "Swarm", "Shadow", "Titan", "Lycanthrope", "Death Knight", "Eldrazi"}
+
+          	local function has_value (tab, val)
+              for k, v in pairs(tab) do
+                  if v == val then
+                      return true
+                  end
+              end
+
+                return false
+            end
+        ]]>
+
+        
   </script>
 
     <popup name="popDescrition" width="200" height="200" backOpacity="0.4">
