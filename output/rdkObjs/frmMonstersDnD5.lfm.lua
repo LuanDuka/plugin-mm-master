@@ -3438,6 +3438,50 @@ local function constructNew_frmMonstersDnD5()
     obj.textEditor1:setField("description");
     obj.textEditor1:setName("textEditor1");
 
+    obj.layout43 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout43:setParent(obj.frmMonster);
+    obj.layout43:setAlign("bottom");
+    obj.layout43:setHeight(25);
+    obj.layout43:setName("layout43");
+
+    obj.button2 = GUI.fromHandle(_obj_newObject("button"));
+    obj.button2:setParent(obj.layout43);
+    obj.button2:setAlign("left");
+    obj.button2:setHorzTextAlign("center");
+    obj.button2:setWidth(375);
+    obj.button2:setText("Filter");
+    obj.button2:setName("button2");
+
+    obj.scrollBox2 = GUI.fromHandle(_obj_newObject("scrollBox"));
+    obj.scrollBox2:setParent(obj.frmMonster);
+    obj.scrollBox2:setAlign("client");
+    obj.scrollBox2:setName("scrollBox2");
+
+    obj.layout44 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout44:setParent(obj.scrollBox2);
+    obj.layout44:setAlign("top");
+    obj.layout44:setHeight(25);
+    obj.layout44:setName("layout44");
+
+    obj.checkBox1 = GUI.fromHandle(_obj_newObject("checkBox"));
+    obj.checkBox1:setParent(obj.layout44);
+    obj.checkBox1:setAlign("left");
+    obj.checkBox1:setWidth(75);
+    obj.checkBox1:setHorzTextAlign("center");
+    obj.checkBox1:setText("Name");
+    obj.checkBox1:setField("enableName");
+    obj.checkBox1:setMargins({right=25, bottom=5, top=5});
+    obj.checkBox1:setName("checkBox1");
+
+    obj.edit19 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit19:setParent(obj.layout44);
+    obj.edit19:setAlign("left");
+    obj.edit19:setWidth(275);
+    obj.edit19:setField("nameFilter");
+    obj.edit19:setName("edit19");
+    obj.edit19:setFontSize(15);
+    obj.edit19:setFontColor("white");
+
     obj._e_event0 = obj.dataLink1:addEventListener("onChange",
         function (field, oldValue, newValue)
             local numAsStr = tostring(newValue);
@@ -7492,7 +7536,40 @@ local function constructNew_frmMonstersDnD5()
             self.DeathSave.fontColor = "white";
         end);
 
+    obj._e_event296 = obj.button2:addEventListener("onClick",
+        function (event)
+            if self.scope.node==nil then return end;
+            				toolSheet.filteredMonsters = {};
+            				local index = 0;
+            
+                    for k,v in pairs(monsterListDataS.db) do
+                      local monster = monsterListDataS.db[k];
+            
+                      if toolSheet.enableName then
+                          local isName = filterName(monster);
+                          if not isName then 
+                            --write(monster.name .. " falhou no filtro de isName");
+                            goto nextmonster 
+                          end;
+                        end;
+            
+                      if toolSheet.enableTypes then
+            						local isType = filterType(monster);
+            						if not isType then 
+            							--write(monster.name .. " falhou no filtro de isType");
+            							goto nextmonster 
+            						end;
+            					end;
+                      
+                      index = index +1;
+            					toolSheet.filteredMonsters[index] = monster;
+            					::nextmonster::
+            
+                    end
+        end);
+
     function obj:_releaseEvents()
+        __o_rrpgObjs.removeEventListenerById(self._e_event296);
         __o_rrpgObjs.removeEventListenerById(self._e_event295);
         __o_rrpgObjs.removeEventListenerById(self._e_event294);
         __o_rrpgObjs.removeEventListenerById(self._e_event293);
@@ -7812,6 +7889,7 @@ local function constructNew_frmMonstersDnD5()
         if self.flowLayout9 ~= nil then self.flowLayout9:destroy(); self.flowLayout9 = nil; end;
         if self.flowPart7 ~= nil then self.flowPart7:destroy(); self.flowPart7 = nil; end;
         if self.modcarismastr ~= nil then self.modcarismastr:destroy(); self.modcarismastr = nil; end;
+        if self.layout43 ~= nil then self.layout43:destroy(); self.layout43 = nil; end;
         if self.horzLine17 ~= nil then self.horzLine17:destroy(); self.horzLine17 = nil; end;
         if self.dataLink69 ~= nil then self.dataLink69:destroy(); self.dataLink69 = nil; end;
         if self.flowLayout10 ~= nil then self.flowLayout10:destroy(); self.flowLayout10 = nil; end;
@@ -7824,6 +7902,7 @@ local function constructNew_frmMonstersDnD5()
         if self.flpSkillFlowPart3str ~= nil then self.flpSkillFlowPart3str:destroy(); self.flpSkillFlowPart3str = nil; end;
         if self.flpSkillFlowPart1str ~= nil then self.flpSkillFlowPart1str:destroy(); self.flpSkillFlowPart1str = nil; end;
         if self.horzLine26 ~= nil then self.horzLine26:destroy(); self.horzLine26 = nil; end;
+        if self.checkBox1 ~= nil then self.checkBox1:destroy(); self.checkBox1 = nil; end;
         if self.flpSkillFlowPart1 ~= nil then self.flpSkillFlowPart1:destroy(); self.flpSkillFlowPart1 = nil; end;
         if self.label10 ~= nil then self.label10:destroy(); self.label10 = nil; end;
         if self.horzLine19 ~= nil then self.horzLine19:destroy(); self.horzLine19 = nil; end;
@@ -7957,6 +8036,7 @@ local function constructNew_frmMonstersDnD5()
         if self.edtUpperGridCampo5 ~= nil then self.edtUpperGridCampo5:destroy(); self.edtUpperGridCampo5 = nil; end;
         if self.dataLink52 ~= nil then self.dataLink52:destroy(); self.dataLink52 = nil; end;
         if self.flowPart16 ~= nil then self.flowPart16:destroy(); self.flowPart16 = nil; end;
+        if self.button2 ~= nil then self.button2:destroy(); self.button2 = nil; end;
         if self.image23 ~= nil then self.image23:destroy(); self.image23 = nil; end;
         if self.layout12 ~= nil then self.layout12:destroy(); self.layout12 = nil; end;
         if self.label8 ~= nil then self.label8:destroy(); self.label8 = nil; end;
@@ -7984,6 +8064,7 @@ local function constructNew_frmMonstersDnD5()
         if self.dataLink37 ~= nil then self.dataLink37:destroy(); self.dataLink37 = nil; end;
         if self.flpSkillFlowPart20str ~= nil then self.flpSkillFlowPart20str:destroy(); self.flpSkillFlowPart20str = nil; end;
         if self.flpSkillFlowPart13button ~= nil then self.flpSkillFlowPart13button:destroy(); self.flpSkillFlowPart13button = nil; end;
+        if self.layout44 ~= nil then self.layout44:destroy(); self.layout44 = nil; end;
         if self.dataLink62 ~= nil then self.dataLink62:destroy(); self.dataLink62 = nil; end;
         if self.edit11 ~= nil then self.edit11:destroy(); self.edit11 = nil; end;
         if self.dataLink70 ~= nil then self.dataLink70:destroy(); self.dataLink70 = nil; end;
@@ -8119,6 +8200,7 @@ local function constructNew_frmMonstersDnD5()
         if self.flpSkillFlowPart20button ~= nil then self.flpSkillFlowPart20button:destroy(); self.flpSkillFlowPart20button = nil; end;
         if self.horzLine14 ~= nil then self.horzLine14:destroy(); self.horzLine14 = nil; end;
         if self.label1 ~= nil then self.label1:destroy(); self.label1 = nil; end;
+        if self.edit19 ~= nil then self.edit19:destroy(); self.edit19 = nil; end;
         if self.imageCheckBox5 ~= nil then self.imageCheckBox5:destroy(); self.imageCheckBox5 = nil; end;
         if self.flowLineBreak3 ~= nil then self.flowLineBreak3:destroy(); self.flowLineBreak3 = nil; end;
         if self.UpperGridCampo1 ~= nil then self.UpperGridCampo1:destroy(); self.UpperGridCampo1 = nil; end;
@@ -8154,6 +8236,7 @@ local function constructNew_frmMonstersDnD5()
         if self.dataLink1 ~= nil then self.dataLink1:destroy(); self.dataLink1 = nil; end;
         if self.layout21 ~= nil then self.layout21:destroy(); self.layout21 = nil; end;
         if self.flpSkillFlowPart17 ~= nil then self.flpSkillFlowPart17:destroy(); self.flpSkillFlowPart17 = nil; end;
+        if self.scrollBox2 ~= nil then self.scrollBox2:destroy(); self.scrollBox2 = nil; end;
         if self.edtUpperGridCampo2 ~= nil then self.edtUpperGridCampo2:destroy(); self.edtUpperGridCampo2 = nil; end;
         if self.flowPart11 ~= nil then self.flowPart11:destroy(); self.flowPart11 = nil; end;
         if self.edit7 ~= nil then self.edit7:destroy(); self.edit7 = nil; end;

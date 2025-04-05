@@ -5,7 +5,54 @@
 
     <popup name="popDescrition" width="200" height="200" backOpacity="0.4">
     <textEditor align="client" field="description"/>
-
-    
   </popup>
+
+  <layout align="bottom" height="25">
+    <button align="left" horzTextAlign="center" width="375" text="Filter">
+      <event name="onClick">
+        if self.scope.node==nil then return end;
+				toolSheet.filteredMonsters = {};
+				local index = 0;
+
+        for k,v in pairs(monsterListDataS.db) do
+          local monster = monsterListDataS.db[k];
+
+          if toolSheet.enableName then
+              local isName = filterName(monster);
+              if not isName then 
+                --write(monster.name .. " falhou no filtro de isName");
+                goto nextmonster 
+              end;
+            end;
+
+          if toolSheet.enableTypes then
+						local isType = filterType(monster);
+						if not isType then 
+							--write(monster.name .. " falhou no filtro de isType");
+							goto nextmonster 
+						end;
+					end;
+          
+          index = index +1;
+					toolSheet.filteredMonsters[index] = monster;
+					::nextmonster::
+        end
+
+        --write(index);
+
+        
+
+      </event>
+    </button>
+  </layout>
+
+  <scrollBox align="client">
+    <layout align="top" height="25">
+      <checkBox align="left" width="75" horzTextAlign="center" text="Name" field="enableName" margins="{right=25, bottom=5, top=5}" />
+      <edit align="left" width="275" field="nameFilter"/>
+    </layout>
+
+
+  </scrollBox>
+
 </form>
